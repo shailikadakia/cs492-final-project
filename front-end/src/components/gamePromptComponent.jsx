@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 function Prompt ({ 
     text,
     image,
@@ -33,5 +35,17 @@ function Prompt ({
     </div>
   );
 }
+
+Prompt.propTypes = {
+  text: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  altText: PropTypes.string.isRequired,
+  option1ID: PropTypes.number.isRequired,
+  option1text: PropTypes.string.isRequired,
+  option2ID: PropTypes.number.isRequired,
+  option2text: PropTypes.string.isRequired,
+  setOptionSelected: PropTypes.func.isRequired
+};
+
 
 export default Prompt;
