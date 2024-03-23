@@ -1,6 +1,6 @@
 const homePageData = {
   data: [
-    {"id": "this is the home page"}
+    {"id": "this is the home page welcome to the simulation"}
   ]
 }
 
