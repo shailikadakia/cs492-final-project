@@ -1,8 +1,11 @@
+
+
 const express = require("express");
 const cors = require("cors")
 const descriptionPageData = require("../data/descriptionPage")
 const homePageData = require("../data/homePage")
 const startPageData = require("../data/startPage")
+const gamePromptPage = require("../data/gamePromptPage")
 
 const PORT = process.env.PORT || 3000;
 
@@ -26,6 +29,9 @@ app.get("/api/start", (req, res) => {
   res.json(startPageData.data);
 });
 
+app.get("/api/game", (req, res) => {
+  res.json(gamePromptPage.data);
+});
 
 app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
