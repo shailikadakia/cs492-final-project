@@ -8,7 +8,11 @@ function Prompt ({
     option1text,
     option2ID, 
     option2text,
-    setOptionSelected
+    setOptionSelected,
+    isTransition,
+    isThirdOption,
+    option3text,
+    option3ID
 }) {
   return (
     <div className="Prompt Component">
@@ -19,6 +23,15 @@ function Prompt ({
         <h3>{text}</h3>
       </div>
       <div className="promptOptions">
+        {isTransition && !isThirdOption ? (
+          <button 
+          onClick={() => {
+            setOptionSelected(option1ID)
+          }}
+        >{option1text}
+        </button>
+        ): (
+          <>
         <button 
           onClick={() => {
             setOptionSelected(option1ID)
@@ -31,6 +44,16 @@ function Prompt ({
           }}
         >{option2text}
         </button>
+        { isThirdOption && 
+          <button 
+          onClick={() => {
+            setOptionSelected(option3ID)
+          }}
+        >{option3text}
+        </button>
+        }
+          </>
+        )}
       </div>
     </div>
   );
@@ -40,11 +63,15 @@ Prompt.propTypes = {
   text: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   altText: PropTypes.string.isRequired,
-  option1ID: PropTypes.number.isRequired,
-  option1text: PropTypes.string.isRequired,
-  option2ID: PropTypes.number.isRequired,
-  option2text: PropTypes.string.isRequired,
-  setOptionSelected: PropTypes.func.isRequired
+  option1ID: PropTypes.number,
+  option1text: PropTypes.string,
+  option2ID: PropTypes.number,
+  option2text: PropTypes.string,
+  setOptionSelected: PropTypes.func.isRequired,
+  isTransition: PropTypes.bool,
+  isThirdOption: PropTypes.bool,
+  option3text: PropTypes.string,
+  option3ID: PropTypes.bool
 };
 
 
