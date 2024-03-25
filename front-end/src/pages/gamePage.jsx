@@ -1,6 +1,7 @@
 
 import { useState, useEffect } from "react";
 import Prompt from "../components/gamePromptComponent";
+import { Link } from 'react-router-dom'
 
 function Game() {
   const [gameData, setGameData] = useState(null);
@@ -26,6 +27,22 @@ function Game() {
   }
 
   const prompt = gameData.find(prompt => prompt.id === optionSelected);
+  console.log(prompt.id)
+
+if (prompt.isGameOver) {
+  return (
+    <div>
+      <h2>Game Over</h2>
+      <p>{prompt.text}</p>
+      <button>
+        <Link to="/">Return to Home</Link>
+      </button>
+      <button>
+        <Link to="/startGame">Play again</Link>
+      </button>
+    </div>
+  );
+}
 
   return (
     <div>
@@ -38,7 +55,12 @@ function Game() {
         option1text={prompt.option1text}
         option2ID={prompt.option2ID}
         option2text={prompt.option2text}
+        option3ID={prompt.option3ID}
+        option3text={prompt.option3text}
         setOptionSelected={handleOptionSelect}
+        isTransition={prompt.isTransition}
+        isThirdOption={prompt.isThirdOption}
+
       />
     </div>
   );
