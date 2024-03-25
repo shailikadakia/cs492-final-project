@@ -1,21 +1,12 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import {useEffect, useState} from 'react'
+// import { useState} from 'react'
 import DescriptionPage from './pages/descriptionPage';
 import StartPage from './pages/startPage';
 import HomePage from './pages/homePage';
 import Game from './pages/gamePage';
 
 function App() {
-  const [message, setMessage] = useState("");
-
-  
-  useEffect(() => {
-    fetch("http://localhost:3000/api")
-      .then((res) => res.json())
-      .then((data) => setMessage(data.message));
-  }, []);
-
   return (
     <div className="App">
       <Router>
@@ -26,7 +17,6 @@ function App() {
           <Route path='/game' element={<Game/>}></Route>
         </Routes>
       </Router>
-      <h3>{message}</h3>
     </div>
   );
 }
