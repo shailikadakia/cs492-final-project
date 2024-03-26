@@ -3,7 +3,6 @@
 const express = require("express");
 const cors = require("cors")
 const descriptionPageData = require("../data/descriptionPage")
-const homePageData = require("../data/homePage")
 const startPageData = require("../data/startPage")
 const gamePromptPage = require("../data/gamePromptPage")
 
@@ -19,10 +18,6 @@ app.get("/api", (req, res) => {
 
 app.get("/api/description", (req, res) => {
   res.json(descriptionPageData.data);
-});
-
-app.get("/api/home", (req, res) => {
-  res.json(homePageData.data);
 });
 
 app.get("/api/start", (req, res) => {
