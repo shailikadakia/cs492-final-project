@@ -33,7 +33,7 @@ if (prompt.isGameOver) {
   return (
     <div>
       <h2>Game Over</h2>
-      <p>{prompt.text}</p>
+      <pre style={{fontFamily:'fantasy'}}>{prompt.text}</pre>
       <button>
         <Link to="/">Return to Home</Link>
       </button>
