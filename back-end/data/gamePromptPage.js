@@ -240,7 +240,12 @@ const gamePromptPage = {
     },
     {
       id: 18,
-      text: `You are now on the screening stage. \n You have received many diverse applications in regards to gender, age, ethnicity, etc for the role. \n The company uses an applicant tracking system (ATS) (ex. Workday, Taleo) that helps filter out candidates.  \n The ATS automatically filters out resumes based on keywords, education, and experience. However, the ATS has inherent biases, leading to the exclusion of potentially qualified candidates.`,
+      text: `You are now on the screening stage. 
+      
+      You have received many diverse applications in regards to gender, age, ethnicity, etc for the role. 
+      The company uses an applicant tracking system (ATS) (ex. Workday, Taleo) that helps filter out candidates.
+      The ATS automatically filters out resumes based on keywords, education, and experience.
+      However, the ATS has inherent biases, leading to the exclusion of potentially qualified candidates.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 19,
@@ -250,7 +255,13 @@ const gamePromptPage = {
     },
     {
       id: 19,
-      text: `You choose to review only the top-ranked resumes suggested by the ATS. This perpetuates bias because the ATS might favour certain backgrounds or keywords. \n The top-ranked resumes selected by the ATS are not diverse. All the selected candidates are Caucasian males at top engineering school. \n You decide to continue using ATS, but look at the non top-ranked resumes as well and review the flags.`,
+      text: `You choose to review only the top-ranked resumes suggested by the ATS.
+      This perpetuates bias because the ATS might favour certain backgrounds or keywords. 
+      
+      The top-ranked resumes selected by the ATS are not diverse. 
+      All the selected candidates are Caucasian males at top engineering school. 
+      
+      You decide to continue using ATS, but look at the non top-ranked resumes as well and review the flags.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 21,
@@ -259,7 +270,13 @@ const gamePromptPage = {
     },
     {
       id: 20,
-      text: `You manually review all resumes, even those flagged by the ATS. This requires more effort but ensures a fairer evaluation. \n You find there is a lot of hidden bias in the ATS algorithm as the ATS favours certain backgrounds and keywords. \n Due to the large number of applicants, this takes too long so you decide to use the filtered ATS results, but also screen manually the flags to be more thorough and reduce bias.`,
+      text: `You manually review all resumes, even those flagged by the ATS. 
+      This requires more effort but ensures a fairer evaluation. 
+
+      You find there is a lot of hidden bias in the ATS algorithm as the ATS favours certain backgrounds and keywords. 
+      
+      Due to the large number of applicants, this takes too long so you decide to use the filtered ATS results, 
+      but also screen manually the flags to be more thorough and reduce bias.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 21,
@@ -268,7 +285,10 @@ const gamePromptPage = {
     },
     {
       id: 21,
-      text: `You encounter a resume from an older candidate. Anne Brown is an experienced software developer who has 35+ years of experience in the industry. The ATS flags them due to age-related keywords. Will you ignore the flag and proceed with this applicant?`,
+      text: `You encounter a resume from an older candidate. Anne Brown is an experienced software developer 
+      who has 35+ years of experience in the industry. The ATS flags them due to age-related keywords. 
+      
+      Will you ignore the flag and proceed with this applicant?`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 22,
@@ -296,7 +316,9 @@ const gamePromptPage = {
     },
     {
       id: 24,
-      text: `You encounter a resume that is flagged due to the candidate having a diverse names. Some names are less common or non-Western. The ATS may subtly favour familiar names. The candidate in question, Rahul Kohli, matches the job requirements and seems like a good fit for the job.`,
+      text: `You encounter a resume that is flagged due to the candidate having a diverse names. 
+      Some names are less common or non-Western. The ATS may subtly favour familiar names. 
+      The candidate in question, Rahul Kohli, matches the job requirements and seems like a good fit for the job.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 25,
@@ -315,7 +337,8 @@ const gamePromptPage = {
     },
     {
       id: 26,
-      text: `You learn about the impact of name bias. To combat this type of discrimation, you hide the names of the resumes when reviewing them.`,
+      text: `You learn about the impact of name bias. To combat this type of discrimation, 
+      you hide the names of the resumes when reviewing them.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 27,
@@ -324,7 +347,8 @@ const gamePromptPage = {
     },
     {
       id: 27,
-      text: `You encounter Steve Lee’s resume, a candidates with a disability. The ATS flags it as it struggles to interpret non-standard experiences.`,
+      text: `You encounter Steve Lee’s resume, a candidates with a disability. 
+      The ATS flags it as it struggles to interpret non-standard experiences.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 28,
@@ -352,7 +376,12 @@ const gamePromptPage = {
     },
     {
       id: 30,
-      text: `You encounter Lily Chen's resume, a candidate with a maternity age gap. The ATS flaggs her resume as a liability. \n You must choose between 2 candidates: Lily, a mom who is qualified with 3 years of experience but has a maternity leave gap vs. Rebbeca Snow, a less qualified candidate with 1.5 years of experience with no maternity gap.`,
+      text: `You encounter Lily Chen's resume, a candidate with a maternity age gap. The ATS flaggs her resume as a liability. 
+      
+      You must choose between 2 candidates: 
+      Lily, a mom who is qualified with 3 years of experience but has a maternity leave gap 
+      vs. 
+      Rebbeca Snow, a less qualified candidate with 1.5 years of experience with no maternity gap.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 31,
@@ -371,7 +400,8 @@ const gamePromptPage = {
     },
     {
       id: 32,
-      text: `You discover that having maternity leave gaps in someone's experience is not a liability and brings valuable experiences and perspectives.`,
+      text: `You discover that having maternity leave gaps in someone's experience is 
+      not a liability and brings valuable experiences and perspectives.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 33,
