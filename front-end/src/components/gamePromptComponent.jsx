@@ -14,13 +14,14 @@ function Prompt ({
     option3text,
     option3ID
 }) {
+  console.log(text)
   return (
     <div className="Prompt Component">
       <div className="promptImage">
         <img src={image} alt={altText}></img>
       </div>
       <div className="promptText">
-        <h3>{text}</h3>
+        <pre style={{fontFamily: 'fantasy'}}>{text}</pre>
       </div>
       <div className="promptOptions">
         {isTransition && !isThirdOption ? (

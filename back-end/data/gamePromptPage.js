@@ -2,7 +2,8 @@ const gamePromptPage = {
   data: [
     {
       id: 0,
-      text: 'Select your role. Choose betweeen 2 men who are 40, and 50 respectively and both white. Did you know that 7.4% of all engineering managers are women, while 92.6% are men and the most common ethnicity of engineering managers is white at 71.0%?',
+      text: `Select your role. Choose betweeen 2 men who are 40, and 50 respectively and both white. 
+      Did you know that 7.4% of all engineering managers are women, while 92.6% are men and the most common ethnicity of engineering managers is white at 71.0%?`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 1,
@@ -12,7 +13,11 @@ const gamePromptPage = {
     },
     {
       id: 1,
-      text: 'Your name is John, a 40 year old manager recently promoted at Avengers4U. \nYou’re first task is to hire a new software developer to join your team. This is your first time hiring someone. \nYou want to make a good impression on your team.\n The Talent Acquisition Specialist at Avengers4U offers you some resources to assist with hiring. ',
+      text:  `Your name is John, a 40 year old manager recently promoted at Avengers4U. 
+
+      You’re first task is to hire a new software developer to join your team. 
+      
+      This is your first time hiring someone. You want to make a good impression on your team. The Talent Acquisition Specialist at Avengers4U offers you some resources to assist with hiring.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 3,
@@ -22,7 +27,11 @@ const gamePromptPage = {
     },
     {
       id: 2,
-      text: 'Your name is William, a 50 year old manager recently promoted at Avengers4U. \nYou’re first task is to hire a new software developer to join your team. his is your first time hiring someone. \nYou want to make a good impression on your team.\n The Talent Acquisition Specialist at Avengers4U offers you some resources to assist with hiring. ',
+      text: `Your name is William, a 50 year old manager recently promoted at Avengers4U.
+
+      You’re first task is to hire a new software developer to join your team. This is your first time hiring someone. You want to make a good impression on your team. 
+      
+      The Talent Acquisition Specialist at Avengers4U offers you some resources to assist with hiring.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 3,
@@ -36,7 +45,7 @@ const gamePromptPage = {
       
       You start by drafting the job description. You highlight the company’s commitment to diversity, aiming to attract a wide range of talented individuals. 
 
-      You begin to picture the ideal candidate. A software engineer with 5 years of work experience that is not afraid to push the envelope. An ambitious and driven individual, active in the software development life cycle.`,
+      You begin to picture the ideal candidate: A software engineer with 5 years of work experience that is not afraid to push the envelope. An ambitious and driven individual, active in the software development life cycle.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText:`Add alt text`,
       option1ID: 5,
@@ -47,13 +56,19 @@ const gamePromptPage = {
       id: 4,
       text: `You decide to ask the Talent Acquisition Specialist for advice. Maura is glad that you reached out!
 
-      Maura tells you that the job posting reflects implicit biases. Surprised, she continues that the word embeddings used by the Google News dataset answered the analogy that a man is a computer programmer and a woman is a homemaker. She explains that word embeddings are a way of representing words for text analysis in the form of real-valued vectors. These vectors preserve semantic and syntactic information, but they can also reflect social biases. The model trained on the Google News dataset, for example, associated certain occupations more closely with one gender than the other, reinforcing stereotypes. 
+      Maura tells you that the job posting reflects implicit biases. Surprised, she continues that the word embeddings used by the Google News dataset answered the analogy that a man is a computer programmer and a woman is a homemaker. 
+      She explains that word embeddings are a way of representing words for text analysis in the form of real-valued vectors. These vectors preserve semantic and syntactic information, but they can also reflect social biases. 
+      The model trained on the Google News dataset, for example, associated certain occupations more closely with one gender than the other, reinforcing stereotypes. 
 
-      This is why it's crucial to use language that doesn’t promote implicit biases, especially in the context of algorithms. Algorithms, particularly those used in natural language processing (NLP) and machine learning, can amplify biases present in the data they are trained on. If job postings use biased language, these biases can be learned and perpetuated by the algorithms, leading to unfair outcomes in candidate selection.
+      This is why it's crucial to use language that doesn’t promote implicit biases, especially in the context of algorithms. Algorithms, particularly those used in natural language processing (NLP) and machine learning, can amplify biases present in the data they are trained on. 
+      If job postings use biased language, these biases can be learned and perpetuated by the algorithms, leading to unfair outcomes in candidate selection.
 
-      Communal traits are typically associated with behaviors that involve nurturing, caring, and connecting with others. These traits are often stereotypically attributed to women, reflecting societal expectations around care giving and emotional labor. In job postings, communal language might include words like "collaborate," "support," and "connect," which can be seen as more inclusive and appealing to a diverse audience.
+      Communal traits are typically associated with behaviors that involve nurturing, caring, and connecting with others. These traits are often stereotypically attributed to women, reflecting societal expectations around care giving and emotional labor. 
+      In job postings, communal language might include words like "collaborate," "support," and "connect," which can be seen as more inclusive and appealing to a diverse audience.
 
-      On the other hand, agentic traits are associated with behaviors that involve assertiveness, independence, and achievement. These traits are often stereotypically attributed to men, reflecting societal expectations around leadership and competitiveness. In job postings, agentic language might include words like "ambitious," "driven," and "active”. Maura adds that the job portal at Avengers4U extrapolates the information from the job posting to show the job to the ideal candidate. In this case,  male applicants were more likely to see the job posting due to the use of agentic words. 
+      On the other hand, agentic traits are associated with behaviors that involve assertiveness, independence, and achievement. These traits are often stereotypically attributed to men, reflecting societal expectations around leadership and competitiveness. 
+      In job postings, agentic language might include words like "ambitious," "driven," and "active”. Maura adds that the job portal at Avengers4U extrapolates the information from the job posting to show the job to the ideal candidate. 
+      In this case,  male applicants were more likely to see the job posting due to the use of agentic words. 
       
       You thank Maura for her help. You can't believe how naive you were. You decide to craft a job posting without the use of agentic words.
       `,
@@ -66,7 +81,8 @@ const gamePromptPage = {
     },
     {
       id: 5,
-      text: `You want to get a new team member hired as soon as possible so you can move one to other tasks. You decide to write the job description as you decided, without getting approval from Talent Acquisition.`,
+      text: `You want to get a new team member hired as soon as possible so you can move one to other tasks. 
+      You decide to write the job description as you decided, without getting approval from Talent Acquisition.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 6,
@@ -75,16 +91,19 @@ const gamePromptPage = {
     },
     {
       id: 6,
-      text: `Maura, the Talent Acqusition, find out that a job posting to the job portal was published without approval. 
-      
-      Maura tells you that the job posting reflects implicit biases. She continues that the word embeddings used by the Google News dataset answered the analogy that a man is a computer programmer and a woman is a homemaker. She explains that word embeddings are a way of representing words for text analysis in the form of real-valued vectors. These vectors preserve semantic and syntactic information, but they can also reflect social biases. The model trained on the Google News dataset, for example, associated certain occupations more closely with one gender than the other, reinforcing stereotypes. 
+      text: ` Maura tells you that the job posting reflects implicit biases. Surprised, she continues that the word embeddings used by the Google News dataset answered the analogy that a man is a computer programmer and a woman is a homemaker. 
+      She explains that word embeddings are a way of representing words for text analysis in the form of real-valued vectors. These vectors preserve semantic and syntactic information, but they can also reflect social biases. 
+      The model trained on the Google News dataset, for example, associated certain occupations more closely with one gender than the other, reinforcing stereotypes. 
 
-      This is why it's crucial to use language that doesn’t promote implicit biases, especially in the context of algorithms. Algorithms, particularly those used in natural language processing (NLP) and machine learning, can amplify biases present in the data they are trained on. If job postings use biased language, these biases can be learned and perpetuated by the algorithms, leading to unfair outcomes in candidate selection.
+      This is why it's crucial to use language that doesn’t promote implicit biases, especially in the context of algorithms. Algorithms, particularly those used in natural language processing (NLP) and machine learning, can amplify biases present in the data they are trained on. 
+      If job postings use biased language, these biases can be learned and perpetuated by the algorithms, leading to unfair outcomes in candidate selection.
 
-      Communal traits are typically associated with behaviors that involve nurturing, caring, and connecting with others. These traits are often stereotypically attributed to women, reflecting societal expectations around care giving and emotional labor. In job postings, communal language might include words like "collaborate," "support," and "connect," which can be seen as more inclusive and appealing to a diverse audience.
+      Communal traits are typically associated with behaviors that involve nurturing, caring, and connecting with others. These traits are often stereotypically attributed to women, reflecting societal expectations around care giving and emotional labor. 
+      In job postings, communal language might include words like "collaborate," "support," and "connect," which can be seen as more inclusive and appealing to a diverse audience.
 
-      On the other hand, agentic traits are associated with behaviors that involve assertiveness, independence, and achievement. These traits are often stereotypically attributed to men, reflecting societal expectations around leadership and competitiveness. In job postings, agentic language might include words like "ambitious," "driven," and "active”. Maura adds that the job portal at Avengers4U extrapolates the information from the job posting to show the job to the ideal candidate. In this case, male applicants were more likely to see the job posting due to the use of agentic words. 
-      
+      On the other hand, agentic traits are associated with behaviors that involve assertiveness, independence, and achievement. These traits are often stereotypically attributed to men, reflecting societal expectations around leadership and competitiveness. 
+      In job postings, agentic language might include words like "ambitious," "driven," and "active”. Maura adds that the job portal at Avengers4U extrapolates the information from the job posting to show the job to the ideal candidate. 
+      In this case,  male applicants were more likely to see the job posting due to the use of agentic words. 
       You are surprised to hear this and Maura is disappointed that you did not take up on her offer for help.
       
       Consequently, Maura decides to takes over the hiring process. 
@@ -97,7 +116,11 @@ const gamePromptPage = {
     
     {
       id: 7,
-      text: `Maura is glad you asked for approval. She recommends a tool named Textio, an augmented writing platform that employs AI to mitigate biased language in job descriptions. She explains that Textio uses natural language processing (NLP) to analyze job postings and suggest alternative language that is more inclusive and appealing to a diverse audience. Intrigued by the recommendation, you decide to give Textio a try, appreciating the opportunity to leverage technology to address the biases in your job posting.`,
+      text: `Maura is glad you asked for approval. She recommends a tool named Textio, an augmented writing platform that employs AI to mitigate biased language in job descriptions. 
+      
+       She explains that Textio uses natural language processing (NLP) to analyze job postings and suggest alternative language that is more inclusive and appealing to a diverse audience. 
+      
+      Intrigued by the recommendation, you decide to give Textio a try, appreciating the opportunity to leverage technology to address the biases in your job posting.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 9,
@@ -107,7 +130,8 @@ const gamePromptPage = {
     },
     {
       id: 8,
-      text: `Maura is disappointed that you did not ask for approval. She explains that Textio is a tool they run job postings by to detect biased language and suggest alternative language. This way, the job posting can be appealing to a diverse audience. 
+      text: `Maura is disappointed that you did not ask for approval. She explains that Textio is a tool they run job postings by to detect biased language and suggest alternative language. 
+      This way, the job posting can be appealing to a diverse audience. 
 
       You are disappointed that you did not ask for approval. It is important that the most qualified candidate is selected. Using tools like Textio ensure that no candidates are detered away from applying.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
@@ -119,6 +143,7 @@ const gamePromptPage = {
       text: `Intrigued by the recommendation, you decide to give Textio a try, appreciating the opportunity to leverage technology to address the biases in your job posting.
       
       Textio is a great tool! It highlights word choices that show gender bias and suggesting alternatives.
+
       Finally, you think you have a inclusive and bias free job posting. 
 
       Now, you must publish the job posting.`,
@@ -130,7 +155,8 @@ const gamePromptPage = {
     },
     {
       id: 11,
-      text: `The next step is determining where you will post the job posting. You want to target a wide range of qualified applicants. You decide that simply adding the posting to the Avengers4U hiring portal is not enough. You consider making a Google Ad to encourage people to apply.
+      text: `The next step is determining where you will post the job posting. You want to target a wide range of qualified applicants. 
+      You decide that simply adding the posting to the Avengers4U hiring portal is not enough. You consider making a Google Ad to encourage people to apply.
       
       As you are making your ad, your coworker Dan walks by. Dan is a senior engineer on your team. Dan says “Hope Google Ads isn’t the only place you’re promoting the job” and walks by.
       
@@ -168,7 +194,9 @@ const gamePromptPage = {
     },
     {
       id: 13,
-      text: `You pick up the courage to ask Dan what he meant. Dan is happy to see you. He says “There was a study done on Google’s Ad system and it found that it was more likely to display ads for high paying positions to male users than female users”. You are shocked. How can this be true? 
+      text: `You pick up the courage to ask Dan what he meant. 
+      
+      Dan is happy to see you. He says “There was a study done on Google’s Ad system and it found that it was more likely to display ads for high paying positions to male users than female users”. You are shocked. How can this be true? 
       
       Dan continues, “The model was trained on historical data. It learned from patterns that men are generally represented in high paying jobs compared to women”.
 
@@ -191,7 +219,9 @@ const gamePromptPage = {
       id: 16,
       text: `You realize that only posting on advertisement on Google was not the right way to go. 
       
-      You decide to make job postings on LinkedIn and Indeed to attract more applicants. Job postings should ensure an equal treatment of alll applicants. You decide that relying only on Google Ads will narrow your search for the most qualified applicant. 
+      You decide to make job postings on LinkedIn and Indeed to attract more applicants. Job postings should ensure an equal treatment of all applicants. 
+      
+      You conclude that relying only on Google Ads will narrow your search for the most qualified applicant. 
       `,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
@@ -206,7 +236,177 @@ const gamePromptPage = {
       altText: `Add alt text`,
       option1ID: 18,
       option1text: `You look forward to screening the applicants`,
-      isGameOver: true
+      isTransition: true
+    },
+    {
+      id: 18,
+      text: `You are now on the screening stage. 
+      
+      You have received many diverse applications in regards to gender, age, ethnicity, etc for the role. 
+      The company uses an applicant tracking system (ATS) (ex. Workday, Taleo) that helps filter out candidates.
+      The ATS automatically filters out resumes based on keywords, education, and experience.
+      However, the ATS has inherent biases, leading to the exclusion of potentially qualified candidates.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 19,
+      option1text: `Choose to review only the top-ranked resumes suggested by the ATS`,
+      option2ID: 20,
+      option2text: `Manually review all reseumes`
+    },
+    {
+      id: 19,
+      text: `You choose to review only the top-ranked resumes suggested by the ATS.
+      This perpetuates bias because the ATS might favour certain backgrounds or keywords. 
+      
+      The top-ranked resumes selected by the ATS are not diverse. 
+      All the selected candidates are Caucasian males at top engineering school. 
+      
+      You decide to continue using ATS, but look at the non top-ranked resumes as well and review the flags.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 21,
+      option1text: `Continue using the ATS, but look at the non top ranked resumes as well and review the flags.`,
+      isTransition: true
+    },
+    {
+      id: 20,
+      text: `You manually review all resumes, even those flagged by the ATS. 
+      This requires more effort but ensures a fairer evaluation. 
+
+      You find there is a lot of hidden bias in the ATS algorithm as the ATS favours certain backgrounds and keywords. 
+      
+      Due to the large number of applicants, this takes too long so you decide to use the filtered ATS results, 
+      but also screen manually the flags to be more thorough and reduce bias.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 21,
+      option1text: `Use the filtered ATS results, but also screen manually the flags to be more thorough and reduce bias.`,
+      isTransition: true
+    },
+    {
+      id: 21,
+      text: `You encounter a resume from an older candidate. Anne Brown is an experienced software developer 
+      who has 35+ years of experience in the industry. The ATS flags them due to age-related keywords. 
+      
+      Will you ignore the flag and proceed with this applicant?`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 22,
+      option1text: `Dismiss older candidates`,
+      option2ID: 23,
+      option2text: `Move forward to the interview stage with Anne`
+    },
+    {
+      id: 22,
+      text: `The team misses out on experienced talent, reinforcing age bias.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 24,
+      option1text: `Screen more candidates`,
+      isTransition: true
+    },
+    {
+      id: 23,
+      text: `You discovers that some older candidates are highly skilled and now challenge age stereotypes.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 24,
+      option1text: `Screen more candidates`,
+      isTransition: true
+    },
+    {
+      id: 24,
+      text: `You encounter a resume that is flagged due to the candidate having a diverse names. 
+      Some names are less common or non-Western. The ATS may subtly favour familiar names. 
+      The candidate in question, Rahul Kohli, matches the job requirements and seems like a good fit for the job.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 25,
+      option1text: `Go along with the ATS and prioritize resumes with familar names.`,
+      option2ID: 26,
+      option2text: `Move forward to the interview stage with Rahul`
+    },
+    {
+      id: 25,
+      text: `The team misses out on diverse perspectives and perpetuates name-based bias.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 27,
+      option1text: `Screen more candidates`,
+      isTransition: true
+    },
+    {
+      id: 26,
+      text: `You learn about the impact of name bias. To combat this type of discrimation, 
+      you hide the names of the resumes when reviewing them.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 27,
+      option1text: `Screen more candidates`,
+      isTransition: true
+    },
+    {
+      id: 27,
+      text: `You encounter Steve Lee’s resume, a candidates with a disability. 
+      The ATS flags it as it struggles to interpret non-standard experiences.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 28,
+      option1text: `Dimiss Steve's resume`,
+      option2ID: 29,
+      option2text: `Investigate further and considers alternative qualifications that Steve has`
+    },
+    {
+      id: 28,
+      text: `The team unintentionally discriminates against disabled applicants.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 30,
+      option1text: `Screen more candidates`,
+      isTransition: true
+    },
+    {
+      id: 29,
+      text: `You discover that unconventional experiences can be valuable and adjust the evaluation process to be more inclusive.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 30,
+      option1text: `Screen more candidates`,
+      isTransition: true
+    },
+    {
+      id: 30,
+      text: `You encounter Lily Chen's resume, a candidate with a maternity age gap. The ATS flaggs her resume as a liability. 
+      
+      You must choose between 2 candidates: 
+      Lily, a mom who is qualified with 3 years of experience but has a maternity leave gap 
+      vs. 
+      Rebbeca Snow, a less qualified candidate with 1.5 years of experience with no maternity gap.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 31,
+      option1text: `Dimiss Lily's resume and choose Rebecca to move forward to the interview process`,
+      option2ID: 32,
+      option2text: `Choose Lily to move forward to the interview process`
+    },
+    {
+      id: 31,
+      text: `The team unintentionally discriminates against moms.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 33,
+      option1text: `You finished screening candidates. Now you will move onto the interviewing stage.`,
+      isTransition: true
+    },
+    {
+      id: 32,
+      text: `You discover that having maternity leave gaps in someone's experience is 
+      not a liability and brings valuable experiences and perspectives.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 33,
+      option1text: `You finished screening candidates. Now you will move onto the interviewing stage.`,
+      isTransition: true
     },
   ]
 }
