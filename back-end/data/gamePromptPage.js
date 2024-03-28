@@ -408,6 +408,113 @@ const gamePromptPage = {
       option1text: `You finished screening candidates. Now you will move onto the interviewing stage.`,
       isTransition: true
     },
+    {
+      id: 33,
+      text: `You’re now on the interviewing stage.
+
+      You have quite a few candidates to interview and responsibilities for projects on your team that you also need to take care of simultaneously. You know that if you continue to thoroughly interview all these candidates yourself, you won’t be abe to meet your project deadlines and select the hire in 2 weeks.
+      
+      You start to research possible technologies to use in the interview process. The company has used HireVue in the past and you think it would be helpful in expediting the process.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 34,
+      option1text: `The algorithmic technology seems like the perfect solution for your problem.`,
+      option2ID: 35,
+      option2text: `You decide to do some more research into the company.`,
+      option3ID: 36,
+      option3text: `You decide to avoid using the technology.`,
+      isTransition: true,
+      isThirdOption: true
+    },
+    {
+      id: 34,
+      text: `You decide to go ahead with the technology and think it’ll be great in giving a baseline to compare all interviewees and expedite the decision-making process immensely.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 37,
+      option1text: `Continue.`,
+      isTransition: true,
+    },
+    {
+      id: 35,
+      text: `The company’s system uses the candidates’ camera to analyze their facial movements, word choice, and speaking voice before ranking them against other applicants based on an automatically generated “employability” score.” The system then creates a computer-generated estimate of the candidates’ skills and behaviors, including their “willingness to learn” and “personal stability.”
+
+      You also check in with HR about past candidate experiences. Most candidates have not submitted feedback about the tool but there are a few bad reviews that indicate candidate displeasure. A recent news article by the Washington Post also highlights that the Electronic Private Information Centre, or EPIC, said that HireVue’s AI-driven assessments produce results that are “biased, unprovable and not replicable” and could unfairly score someone based on prejudices related to their gender, race, sexual orientation or neurological differences.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 37,
+      option1text: `You decide to go ahead with the technology but make it a small part of the decision-making process. 
+
+      This way, you can conduct interviews faster and the technology will help give a baseline to compare all the interviewees.`,
+      option2ID: 40,
+      option2text: `After reading through the article, you decide that it would be the most equitable approach to go through with interviews manually.`,
+      isTransition: true,
+    },
+    {
+      id: 36,
+      text: `You recall doing some AI supported calls as an interviewee in the past and remember how it impacted your confidence. You felt as if there was minimal opportunity to showcase your skill set during the interview and provided shorter interview answers since there was a lack of genuine interaction. You recall your African-American friend also telling you that they had a frustrating and discriminatory experience where the algorithm did not even recognize them. You don’t want to put anyone else through that process. 
+
+      To combat the looming deadlines, you pull in other members of your team to help with the interviewing process and host a detailed meeting before interviews start to answer any questions and align the team on the best practices to avoid bias to even the playing field as much as possible for all candidates.
+      
+      You tell the team to go in blind in the interviews to avoid unconscious biases and create a set of defined questions to allow interviewers to focus on the factors that have a direct impact on the candidate’s work. You also use an interview scorecard that grades candidates’ responses on a per-determined scale and have 2 interviewers attend each interview. 
+      
+      Interviews went a bit over the deadline but they were a success and the team is excited about a few diverse candidates who made it past interviews`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 41,
+      option1text: `Move to post selection.`,
+      isTransition: true,
+    },
+    {
+      id: 37,
+      text: `After interviews are completed before the deadline, you notice something odd about the employability scores of some of the candidates. 
+
+      Nicolette, who was a stellar candidate and great communicator during the technical interview, was rated much lower than Steve, who you found to be a bit off-putting. You dive deeper into the information that the algorithm gathered for both candidates and begin to worry.
+      
+      Nicole was well-dressed for the interview and answered confidently in the allotted time. The algorithm had caught the positive keywords she used as well. But the algorithm has indicated that she looked angry and was not well-suited to the job due to a bad temper. Comparatively, Steve’s score is pretty accurate.  
+      
+      You do some more digging and find that facial-analysis software shows error rate of 0.8 percent for light-skinned men compared to 34.7 percent for dark-skinned women. Machine Learning Automated Decision Making, or ML-ADM, often exhibits gender and skin-type bias that is unfair to women and incorrectly assessed Nicole’s facial expressions and tone.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 38,
+      option1text: `You decide to trust the algorithm and reject candidates like Nicole due to extremely low score by HireVue.`,
+      option2ID: 39,
+      option2text: `You decide to go with your gut and move candidates like Nicole forward, despite the extremely low score by HireVue.`,
+      isTransition: true,
+    },
+    {
+      id: 38,
+      text: `Due to your decision, the final batch of candidates after interviews is made up of only white males. 
+
+      Nicole asks how she could improve after receiving a rejection email and you aren’t able to explain why the AI hiring system believed she was unfit for the role.
+      
+      The final batch of candidates after interviews is not as  diverse as it would have been had you not put your full faith in the algorithm. A recent news article by the Washington Post also highlights that the Electronic Private Information Centre, or EPIC, said that HireVue’s AI-driven assessments produce results that unfairly score people based on prejudices related to their gender, race, sexual orientation or neurological differences. Its disappointing to see this reflected so personally in your own experience.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      isGameOver: true
+    },
+    {
+      id: 39,
+      text: `Due to your decision, the final batch of candidates after interviews is more diverse than it would have been had you listened to the algorithm`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 41,
+      option1text: `Move to post selection.`,
+      isTransition: true
+    },
+    {
+      id: 40,
+      text: `To combat the looming deadlines, you pull in other members of your team to help with the interviewing process and host a detailed meeting before interviews start to answer any questions and align the team on the best practices to avoid bias to even the playing field as much as possible for all candidates.
+
+      You tell the team to go in blind in the interviews to avoid unconscious biases and create a set of defined questions to allow interviewers to focus on the factors that have a direct impact on the candidate’s work. You also use an interview scorecard that grades candidates’ responses on a per-determined scale and have 2 interviewers attend each interview. 
+      
+      Interviews went a bit over the deadline but they were a success and the team is excited about a few diverse candidates who made it past interviews.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 41,
+      option1text: `Move to post selection.`,
+      isTransition: true
+    },
   ]
 }
 
