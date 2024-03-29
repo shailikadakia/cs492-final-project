@@ -21,7 +21,12 @@ function Prompt ({
         <img src={image} alt={altText}></img>
       </div>
       <div className="promptText">
-        <pre style={{fontFamily: 'fantasy'}}>{text}</pre>
+      {text.split('\n').map((i, key) => (
+          <p key={key}>
+          {i}
+          <br />
+        </p>
+        ))}
       </div>
       <div className="promptOptions">
         {isTransition && !isThirdOption ? (

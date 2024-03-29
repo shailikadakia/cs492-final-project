@@ -32,10 +32,17 @@ function Game() {
 if (prompt.isGameOver) {
   return (
     <div>
-      <h2>Game Over</h2>
-      <pre style={{fontFamily:'fantasy'}}>{prompt.text}</pre>
+      <h1>Game Over</h1>
+      <div className="promptText">
+      {prompt.text.split('\n').map((i, key) => (
+          <p key={key}>
+          {i}
+          <br />
+        </p>
+        ))}
+      </div>
       <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
-        <Link to="/">Return to Home</Link>
+        <Link to="/startGame">Return to Home</Link>
       </button>
       <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
         <Link to="/startGame">Play again</Link>
