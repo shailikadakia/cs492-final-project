@@ -3,15 +3,18 @@ import { Link } from 'react-router-dom';
 function HomePage() {
   return (
     <div className="HomePage">
-        <img className='homePage-HeaderImg' src="../../../assets/AITeamLookingAtCandidate.webp" alt="AI ethics" height="400"/>
-      <div className='homePage-TextContainer'>
-        <h2>Welcome to a world where technology shapes our choices!</h2>
-        <p className='homwPage-text'>
+        <img className='border-x-violet-500 homePage-HeaderImg mx-auto' src="../../../assets/AITeamLookingAtCandidate.webp" alt="AI ethics" height="200"/>
+        <br></br>
+        <br></br>
+      <div className='homePage-TextContainer text-neutral-200'>
+        <h2 className='text-xl font-bold'>Welcome to a world where technology shapes our choices!</h2>
+        <br></br>
+        <p className='homwPage-text text-sm'>
 
           AI is changing the game of recruitment and streamlining the hiring process. These algorithms promise efficiency but also raise questions of biases, discrimination, and data privacy.
           <br></br>  
           <br></br>
-          Are you ready to step into the role of HR leader, and ensure fairness prevails in this high-tech hiring landscape?
+          Are YOU ready to step into the role of HR leader, and ensure fairness prevails in this high-tech hiring landscape?
           <br></br>
           <br></br>
           This interactive simulation will guide you through real-world scenarios, teaching you the hidden biases in hiring and see if you can build a truly fair workplace.
@@ -19,7 +22,7 @@ function HomePage() {
           <br></br>
           <h3>Ready to play?</h3>
           <br></br>
-          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"><Link to="/startGame">Start Game</Link></button>
+          <button class= "bg-pink-400 animate-bounce hover:bg-pink-600 text-white font-semibold py-2 px-4 border border-sky-900 rounded"><Link to="/startGame">Start Game</Link></button>
         </p>
       </div>
     </div>
