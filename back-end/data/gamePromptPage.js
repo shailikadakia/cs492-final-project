@@ -667,7 +667,7 @@ const gamePromptPage = {
 
       Unfortunately, the decision to follow AI recommendations without scrutiny resulted in overlooking qualified candidates, fostering workplace bias, and leading to a loss of talent. 
       This serves as a hard lesson on the importance of human oversight in AI processes.
-      You have failed the simulation! Restart the simulation. 
+      You have failed the simulation! Restart the simulation and become a pro at mitigating such biases. 
       `,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
