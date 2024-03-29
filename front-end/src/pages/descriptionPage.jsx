@@ -13,15 +13,15 @@ function DescriptionPage() {
   }, []);
 
   return (
-    <div className="DescriptionPage">
+    <div className="DescriptionPage  bg-blue-950 min-h-screen text-neutral-100 text-left">
         {/*{data.map((item) => (
           <li key={item.id}>{item.id}</li>
         ))}*/}
         
       <img className='descriptionPage-HeaderImg' src="../../assets/descriptionPage.webp" height="400"/>
       <div className='descriptionPage-TextContainer'>
-        <h2>The Hidden Bias: An Interactive Exploration of AI in Hiring</h2>
-        <p className='descriptionPage-text'>
+        <h2 class="text-center">The Hidden Bias: An Interactive Exploration of AI in Hiring</h2>
+        <p className='descriptionPage-text text-left'>
           
           Algorithms seem efficient, neutral tools.  But what happens when the data used to train AI reflects the all-too-human biases of our world?  
           In this interactive game, you'll step into the role of a hiring manager and experience firsthand how AI can amplify prejudice in the workplace, often with the best of intentions.

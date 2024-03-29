@@ -4,7 +4,7 @@ function HomePage() {
   return (
     <div className="HomePage">
         <img className='homePage-HeaderImg' src="../../../assets/AITeamLookingAtCandidate.webp" alt="AI ethics" height="400"/>
-      <div className='homePage-TextContainer'>
+      <div className='homePage-TextContainer text-neutral-200'>
         <h2>Welcome to a world where technology shapes our choices!</h2>
         <p className='homwPage-text'>
 
