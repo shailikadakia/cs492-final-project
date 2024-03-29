@@ -43,7 +43,11 @@ if (prompt.isGameOver) {
     </div>
   );
 }
-
+  const divStyle = {
+    wordWrap: 'break-word',
+    maxWidth: '600px',
+    width: '90%' 
+  };
   return (
     <div>
       <Prompt
