@@ -7,7 +7,6 @@ function Footer () {
             </span>
         </div>
     </footer>
-
   );
 }
 

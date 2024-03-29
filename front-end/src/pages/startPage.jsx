@@ -23,7 +23,7 @@ function StartPage() {
           <h3>You are thrilled to take on this new role and lead a team of talented engineers.</h3>
         </div>
         <br></br>
-        <button><Link to="/game" style={{textDecoration: 'none'}}>Continue</Link></button>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"><Link to="/game" style={{textDecoration: 'none'}}>Continue</Link></button>
 
 
 
