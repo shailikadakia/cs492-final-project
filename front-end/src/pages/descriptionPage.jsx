@@ -57,7 +57,7 @@ function DescriptionPage() {
           Develop empathy for those impacted by discriminatory algorithms.
           Practice identifying and overcoming bias in a safe environment.
         </p>
-        <button>Start Playing, Start Learning!</button>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">Start Playing, Start Learning!</button>
       </div>
 
     </div>

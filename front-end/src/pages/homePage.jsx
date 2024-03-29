@@ -18,7 +18,8 @@ function HomePage() {
           Let's explore the power and pitfalls of using AI in hiring. Discover how it can help -and sometimes hinder- finding the best people.  
           <br></br>
           <h3>Ready to play?</h3>
-          <button><Link to="/startGame">Start Game</Link></button>
+          <br></br>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"><Link to="/startGame">Start Game</Link></button>
         </p>
       </div>
     </div>
