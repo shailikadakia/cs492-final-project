@@ -557,7 +557,7 @@ const gamePromptPage = {
       text: `By manually checking, you understand the importance of human oversight in AI decisions, promoting equity and preventing bias. You learn that while AI tools can be helpful, they must be regularly audited and adjusted to serve the company's values of fairness and equality. `,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
-      option1ID: 50,
+      option1ID: 48,
       option1text: `The numbers are in, and the stage is set. PromoAI 2.0 has been adjusting its algorithm and meticulously evaluated your team's performance, and destinies are about to change. Some will rise, while others may stay on their current path. Time to find out who's the office superstar and who's been slacking off in the meme-sharing department!`,
       isTransition: true
     },
@@ -596,7 +596,7 @@ const gamePromptPage = {
       text: `By manually checking,  you understand the importance of human oversight in AI decisions, promoting equity and preventing bias. You learn that while AI tools can be helpful, they must be regularly audited and adjusted to serve the company's values of fairness and equality.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
-      option1ID: 50,
+      option1ID: 48,
       option1text: `The numbers are in, and the stage is set. PromoAI 2.0 has been adjusting its algorithm and meticulously evaluated your team's performance, and destinies are about to change. Some will rise, while others may stay on their current path. Time to find out who's the office superstar and who's been slacking off in the meme-sharing department!`,
       isTransition: true
     },
@@ -605,79 +605,78 @@ const gamePromptPage = {
       text: `GAME OVER! Due to AI’s inherent biases, company now faces legal action. The decision leads to internal unrest and public scrutiny as employees begin to openly discuss the clear disparity in compensation adjustments and a PR nightmare that damages the company's reputation.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
-      option1ID: 42,
+      option1ID: '',
       option1text: ``,
       isGameOver: true
     },
     {
-      id: 41,
-      text: ``,
+      id: 48,
+      text: ` 2 years later......
+      
+      It has now been 2 years and it's time for performance reviews and potential promotions, and you're now working with PromoAI 2.0 tool which is trained on evaluating performance, and managing promotions. 
+      It is designed to assist in promotion decisions, performance evaluations, and salary adjustments. The system analyzes employee performance data, feedback, and historical trends to make recommendations.
+      
+      Decision: You are tasked with reviewing the AI-recommended list of employees for promotions and salary increases. The system has also provided a percentile ranking for each employee based on their performance metrics.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
-      option1ID: 42,
-      option1text: ``,
-      option2ID: 43,
-      option2text: ``,
+      option1ID: 49,
+      option1text: `You choose to do a combined approach of manual checking and using AI.`,
+      option2ID: 50,
+      option2text: `You trust and go ahead with the AI created list as the process is very time-consuming.`,
+    },
+    {
+      id: 49,
+      text: `You remember there’s been a situation where a MAC employee has been fired due to facial analysis conducting performance reviews. 
+      
+      As you review the list, you notice that the top 10% recommended for significant promotions and raises are predominantly male, despite the workforce being more diverse. 
+      Upon a closer examination, you find that most of the female employees and those from minority groups are clustered around the middle or bottom of the percentile rankings.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 51,
+      option1text: `You adjust the promotions based on your employees' merit.`,
+      option2ID: 52,
+      option2text: `You send the new findings to the developer team and re-train the model to provide accurate results.`,
       isTransition: true
     },
     {
-      id: 41,
-      text: ``,
+      id: 51,
+      text: `Success! Congratulations! You have successfully navigated through the entire process of hiring a candidate and completed the simulation. Most of your decisions led to an improved workplace culture, higher employee morale, and bolstered the company’s reputation for fairness. Well done!"`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
-      option1ID: 42,
+      option1ID: 100,
       option1text: ``,
-      option2ID: 43,
-      option2text: ``,
-      isTransition: true
+      isGameOver: true
     },
     {
-      id: 41,
-      text: ``,
+      id: 52,
+      text: `Failure :(. Unfortunately, the decision to follow AI recommendations without scrutiny resulted in overlooking qualified candidates, fostering workplace bias, and leading to a loss of talent. 
+      This serves as a hard lesson on the importance of human oversight in AI processes.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
-      option1ID: 42,
+      option1ID: 100,
       option1text: ``,
-      option2ID: 43,
-      option2text: ``,
-      isTransition: true
+      isGameOver: true
     },
     {
-      id: 41,
-      text: ``,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
-      altText: `Add alt text`,
-      option1ID: 42,
-      option1text: ``,
-      option2ID: 43,
-      option2text: ``,
-      isTransition: true
-    },
-    {
-      id: 41,
-      text: ``,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
-      altText: `Add alt text`,
-      option1ID: 42,
-      option1text: ``,
-      option2ID: 43,
-      option2text: ``,
-      isTransition: true
-    },
-    {
-      id: 41,
-      text: ``,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
-      altText: `Add alt text`,
-      option1ID: 42,
-      option1text: ``,
-      option2ID: 43,
-      option2text: ``,
-      isTransition: true
-    },
+      id: 50,
+      text: `Unfortunately, AI’s recommended list had inherent age and gender bias. 
+      
+      AI tool disproportionately recommended higher bonuses for the young tech team, most of whom are male. Seasoned employees in support roles, including many from minority groups, have been recommended much lower bonuses or none at all. 
+      
+      Company culture suffers as seasoned and minority employees feel undervalued. 
 
+      Unfortunately, the decision to follow AI recommendations without scrutiny resulted in overlooking qualified candidates, fostering workplace bias, and leading to a loss of talent. 
+      This serves as a hard lesson on the importance of human oversight in AI processes.
+      You have failed the simulation! Restart the simulation. 
+      `,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 100,
+      option1text: ``,
+      isGameOver: true
+    }
 
   ]
 }
 
-module.exports = gamePromptPage
+module.exports = gamePromptPages
