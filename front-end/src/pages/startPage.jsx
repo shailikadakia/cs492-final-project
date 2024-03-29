@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
 function StartPage() {
   const [data, setData] = useState([]);
@@ -18,13 +17,6 @@ function StartPage() {
         {data.map((item) => (
           <li key={item.id}>{item.id}</li>
         ))}
-      <div className='startPage-TextContainer'>
-        <h2>Congratulations! You have just been promoted to Engineering Manager at Avengers4U.</h2>
-        <h3>You are thrilled to take on this new role and lead a team of talented engineers.</h3>
-      </div>
-      <button><Link to="/game" style={{textDecoration: 'none'}}>Continue</Link></button>
-
-
     </div>
   );
 }

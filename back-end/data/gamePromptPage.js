@@ -679,4 +679,4 @@ const gamePromptPage = {
   ]
 }
 
-module.exports = gamePromptPages
+module.exports = gamePromptPage
