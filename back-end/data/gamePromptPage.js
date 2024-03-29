@@ -576,6 +576,14 @@ const gamePromptPage = {
       option2text: `You choose to go ahead with the AI suggested pays confidently as they align with organization’s values of data-driven decisions and AI’s “unbiasness” as many cite in news.  `,
     },
     {
+      id: 45,
+      text: `GAME OVER! Due to AI’s inherent biases, company now faces legal action. The decision leads to internal unrest and public scrutiny as employees begin to openly discuss the clear disparity in compensation adjustments and a PR nightmare that damages the company's reputation.`,
+      image: "",
+      altText: `add alt text`,
+      isGameOver: true
+
+    },
+    {
       id: 44,
       text: `You can see that based on historical data and current employees in that role, suggested a lower salary for Nate for this analyst role and Maya for the engineering role. 
       SalaryAI recommends salaries for new hires that are surprisingly lower for women and minority groups, despite their similar qualifications to other candidates. 
@@ -605,8 +613,6 @@ const gamePromptPage = {
       text: `GAME OVER! Due to AI’s inherent biases, company now faces legal action. The decision leads to internal unrest and public scrutiny as employees begin to openly discuss the clear disparity in compensation adjustments and a PR nightmare that damages the company's reputation.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
-      option1ID: '',
-      option1text: ``,
       isGameOver: true
     },
     {
@@ -643,8 +649,6 @@ const gamePromptPage = {
       text: `Success! Congratulations! You have successfully navigated through the entire process of hiring a candidate and completed the simulation. Most of your decisions led to an improved workplace culture, higher employee morale, and bolstered the company’s reputation for fairness. Well done!"`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
-      option1ID: 100,
-      option1text: ``,
       isGameOver: true
     },
     {
@@ -653,8 +657,6 @@ const gamePromptPage = {
       This serves as a hard lesson on the importance of human oversight in AI processes.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
-      option1ID: 100,
-      option1text: ``,
       isGameOver: true
     },
     {
@@ -671,8 +673,6 @@ const gamePromptPage = {
       `,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
-      option1ID: 100,
-      option1text: ``,
       isGameOver: true
     }
 
