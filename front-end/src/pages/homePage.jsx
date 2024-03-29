@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function HomePage() {
   return (
     <div className="HomePage">
-        <img className='homePage-HeaderImg' src="../../assets/DALL·E 2024-03-24 22.55.47 - In a spacious, well-lit conference room within a modern office, a team of human HR professionals is seated around a large table, engaging in the selec.webp" alt="AI ethics" height="400"/>
+        <img className='homePage-HeaderImg' src="../../../assets/AITeamLookingAtCandidate.webp" alt="AI ethics" height="400"/>
       <div className='homePage-TextContainer'>
         <h2>Welcome to a world where technology shapes our choices!</h2>
         <p className='homwPage-text'>
