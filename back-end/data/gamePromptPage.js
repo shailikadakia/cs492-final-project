@@ -534,7 +534,149 @@ const gamePromptPage = {
       option1text: `Move to post selection.`,
       isTransition: true
     },
+    {
+      id: 41,
+      text: `You have successfully selected a few candidates to hire! As the HR manager, you are now responsible for choosing starting salaries for the new hires based on roles, experience, and market standards. 
+
+      The company has recently started using a SalaryAI tool to assist with setting compensation, and doing market analysis. The AI uses data analytics to set competitive salary offers for new hires. 
+      The AI claims to optimize compensation packages by analyzing a vast array of market data, internal salary trends, and applicant's previous earnings.
+
+      Using such an AI tool makes the process relatively easier and saves so much time. However, the AI system might have some unintentional biases. 
+      
+      Your company has hired for two key positions: Software Engineer and a Marketing Analyst. Both positions have top-tier candidates, Maya Khan and Nate Perez for engineering both of whom are final-round candidates from minority backgrounds.
+      SalaryAI returns with the salary suggestions: $80,000 for Sophia and $70,000 for Nate. However, you know the market rate for these positions at companies similar to yours is $100,000 for software engineering and $85,000 for marketing analysts.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 42,
+      option1text: `You choose to compare both Nate and Maya's qualifications and previous roles as well as current employees salary compensation in the company and the market.`,
+      option2ID: 43,
+      option2text: `You decide to go ahead with the AI's recommended salaries and pay packages, trusting the AI's analysis is comprehensive and objective.`,
+    },
+    {
+      id: 42,
+      text: `By manually checking, you understand the importance of human oversight in AI decisions, promoting equity and preventing bias. You learn that while AI tools can be helpful, they must be regularly audited and adjusted to serve the company's values of fairness and equality. `,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 48,
+      option1text: `The numbers are in, and the stage is set. PromoAI 2.0 has been adjusting its algorithm and meticulously evaluated your team's performance, and destinies are about to change. Some will rise, while others may stay on their current path. Time to find out who's the office superstar and who's been slacking off in the meme-sharing department!`,
+      isTransition: true
+    },
+    {
+      id: 43,
+      text: `This, however, might perpetuate pay disparity based on BIPOC and gender.
+      
+      You make the offers as suggested. However, Nate and Maya might soon discover they are being paid less than market rates and less than their peers for similar roles.
+      
+      RISK: They feel undervalued and start looking for new opportunities. Your decision can lead to turnover issues.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 44,
+      option1text: `Puzzled by the analysis from the AI system and being mindful of the risk, you choose to dig deeper. `,
+      option2ID: 45,
+      option2text: `You choose to go ahead with the AI suggested pays confidently as they align with organization’s values of data-driven decisions and AI’s “unbiasness” as many cite in news.  `,
+    },
+    {
+      id: 44,
+      text: `You can see that based on historical data and current employees in that role, suggested a lower salary for Nate for this analyst role and Maya for the engineering role. 
+      SalaryAI recommends salaries for new hires that are surprisingly lower for women and minority groups, despite their similar qualifications to other candidates. 
+      It heavily factors in previous candidates salaries and although Maya and Nate are excellent candidates, salaries are way below market rate due to the systematic underpayment of minorities in tech industry. 
+
+      Despite this bias, you realize manually searching for market rate is time-consuming.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 46,
+      option1text: `So, you decide to go ahead with the suggested salaries by AI and adjust it manually to ensure pay equity. You adjusted Maya's offer to ensure parity, mindful of the company's commitment to diversity and equality.
+      
+      You immediately rectify the situation by increasing their pays and add more benefits to their roles and tell the HR team to manually compare the salary set by AI to avoid such issues in the future. `,
+      option2ID: 47,
+      option2text: `You choose to go ahead with Salary AI’s suggestions and collaborate with the team to send the new hires their respective pay and benefits package. `,
+    },
+    {
+      id: 46,
+      text: `By manually checking,  you understand the importance of human oversight in AI decisions, promoting equity and preventing bias. You learn that while AI tools can be helpful, they must be regularly audited and adjusted to serve the company's values of fairness and equality.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 48,
+      option1text: `The numbers are in, and the stage is set. PromoAI 2.0 has been adjusting its algorithm and meticulously evaluated your team's performance, and destinies are about to change. Some will rise, while others may stay on their current path. Time to find out who's the office superstar and who's been slacking off in the meme-sharing department!`,
+      isTransition: true
+    },
+    {
+      id: 47,
+      text: `GAME OVER! Due to AI’s inherent biases, company now faces legal action. The decision leads to internal unrest and public scrutiny as employees begin to openly discuss the clear disparity in compensation adjustments and a PR nightmare that damages the company's reputation.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: '',
+      option1text: ``,
+      isGameOver: true
+    },
+    {
+      id: 48,
+      text: ` 2 years later......
+      
+      It has now been 2 years and it's time for performance reviews and potential promotions, and you're now working with PromoAI 2.0 tool which is trained on evaluating performance, and managing promotions. 
+      It is designed to assist in promotion decisions, performance evaluations, and salary adjustments. The system analyzes employee performance data, feedback, and historical trends to make recommendations.
+      
+      Decision: You are tasked with reviewing the AI-recommended list of employees for promotions and salary increases. The system has also provided a percentile ranking for each employee based on their performance metrics.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 49,
+      option1text: `You choose to do a combined approach of manual checking and using AI.`,
+      option2ID: 50,
+      option2text: `You trust and go ahead with the AI created list as the process is very time-consuming.`,
+    },
+    {
+      id: 49,
+      text: `You remember there’s been a situation where a MAC employee has been fired due to facial analysis conducting performance reviews. 
+      
+      As you review the list, you notice that the top 10% recommended for significant promotions and raises are predominantly male, despite the workforce being more diverse. 
+      Upon a closer examination, you find that most of the female employees and those from minority groups are clustered around the middle or bottom of the percentile rankings.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 51,
+      option1text: `You adjust the promotions based on your employees' merit.`,
+      option2ID: 52,
+      option2text: `You send the new findings to the developer team and re-train the model to provide accurate results.`,
+      isTransition: true
+    },
+    {
+      id: 51,
+      text: `Success! Congratulations! You have successfully navigated through the entire process of hiring a candidate and completed the simulation. Most of your decisions led to an improved workplace culture, higher employee morale, and bolstered the company’s reputation for fairness. Well done!"`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 100,
+      option1text: ``,
+      isGameOver: true
+    },
+    {
+      id: 52,
+      text: `Failure :(. Unfortunately, the decision to follow AI recommendations without scrutiny resulted in overlooking qualified candidates, fostering workplace bias, and leading to a loss of talent. 
+      This serves as a hard lesson on the importance of human oversight in AI processes.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 100,
+      option1text: ``,
+      isGameOver: true
+    },
+    {
+      id: 50,
+      text: `Unfortunately, AI’s recommended list had inherent age and gender bias. 
+      
+      AI tool disproportionately recommended higher bonuses for the young tech team, most of whom are male. Seasoned employees in support roles, including many from minority groups, have been recommended much lower bonuses or none at all. 
+      
+      Company culture suffers as seasoned and minority employees feel undervalued. 
+
+      Unfortunately, the decision to follow AI recommendations without scrutiny resulted in overlooking qualified candidates, fostering workplace bias, and leading to a loss of talent. 
+      This serves as a hard lesson on the importance of human oversight in AI processes.
+      You have failed the simulation! Restart the simulation. 
+      `,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 100,
+      option1text: ``,
+      isGameOver: true
+    }
+
   ]
 }
 
-module.exports = gamePromptPages
+module.exports = gamePromptPage
