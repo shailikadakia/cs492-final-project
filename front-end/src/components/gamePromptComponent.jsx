@@ -30,7 +30,7 @@ function Prompt ({
       <br></br>
       <div className={`promptOptions grid ${isThirdOption ? 'grid-cols-3' : 'grid-cols-2'} gap-6`}>
         {isTransition && !isThirdOption ? (
-          <button class="bg-sky-600 hover:bg-sky-800 text-white font-semibold py-2 px-4 border border-sky-900 rounded"
+          <button class="bg-indigo-900 hover:border-pink-500 hover:border text-white font-semibold py-2 px-4 rounded"
           onClick={() => {
             setOptionSelected(option1ID)
           }}
@@ -38,20 +38,20 @@ function Prompt ({
         </button>
         ): (
           <>
-        <button class="bg-sky-600 hover:bg-sky-800 text-white font-semibold py-2 px-4 border border-sky-900 rounded"
+        <button class="bg-indigo-900 hover:border-pink-500 hover:border text-white font-semibold py-2 px-4 rounded"
           onClick={() => {
             setOptionSelected(option1ID)
           }}
         >{option1text}
         </button>
-        <button class="bg-sky-600 hover:bg-sky-800 text-white font-semibold py-2 px-4 border border-sky-900 rounded"
+        <button class="bg-indigo-900 hover:border-pink-500 hover:border text-white font-semibold py-2 px-4 rounded"
           onClick={() => {
             setOptionSelected(option2ID)
           }}
         >{option2text}
         </button>
         { isThirdOption && 
-          <button class="py-2 px-4 bg-sky-600  hover:bg-sky-800 text-white font-semibold border border-neutral-900 rounded"
+          <button class="py-2 px-4 bg-indigo-900 text-white font-semibold hover:border-pink-500 hover:border rounded"
           onClick={() => {
             setOptionSelected(option3ID)
           }}

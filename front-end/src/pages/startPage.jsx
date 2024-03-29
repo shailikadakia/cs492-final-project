@@ -14,19 +14,19 @@ function StartPage() {
   }, []);
 
   return (
-    <div className="StartPage bg-blue-950 min-h-screen text-neutral-100 text-left" >
+    <div className="StartPage bg-indigo-950 border-2 border-rose-400 text-neutral-100 rounded-sm" >
         {/*data.map((item) => (
           <li key={item.id}>{item.id}</li>
         ))*/}
-         <div className='startPage-TextContainer'>
-          <h2>Congratulations! You have just been promoted to Engineering Manager at Avengers4U.</h2>
+         <div className='startPage-TextContainer p-8'>
+          <h2 className='text-xl font-extrabold text-rose-400'>Congratulations!</h2>
+          <h3>You have just been promoted to Engineering Manager at Avengers4U.</h3>
           <h3>You are thrilled to take on this new role and lead a team of talented engineers.</h3>
+          <br></br>
+          <button className='rounded-sm bg-indigo-700 border-1 border-gray-800 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  hover:bg-pink-600 text-white font-semibold py-2 px-4 border sm-rounded"'><Link to="/game" style={{textDecoration: 'none'}}>Continue...</Link></button>
+
         </div>
-        <br></br>
-        <button><Link to="/game" style={{textDecoration: 'none'}}>Continue</Link></button>
-
-
-
+        
     </div>
   );
 }
