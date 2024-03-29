@@ -29,20 +29,20 @@ function Game() {
   const prompt = gameData.find(prompt => prompt.id === optionSelected);
   console.log(prompt.id)
 
-  if (prompt.isGameOver) {
-    return (
-      <div>
-        <h2>Game Over</h2>
-        <pre style={{fontFamily:'fantasy'}}>{prompt.text}</pre>
-        <button>
-          <Link to="/">Return to Home</Link>
-        </button>
-        <button>
-          <Link to="/startGame">Play again</Link>
-        </button>
-      </div>
-    );
-  }
+if (prompt.isGameOver) {
+  return (
+    <div>
+      <h2>Game Over</h2>
+      <pre style={{fontFamily:'fantasy'}}>{prompt.text}</pre>
+      <button>
+        <Link to="/">Return to Home</Link>
+      </button>
+      <button>
+        <Link to="/startGame">Play again</Link>
+      </button>
+    </div>
+  );
+}
 
   return (
     <div>
