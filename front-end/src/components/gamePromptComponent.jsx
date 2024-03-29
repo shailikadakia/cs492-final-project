@@ -25,7 +25,7 @@ function Prompt ({
       </div>
       <div className="promptOptions">
         {isTransition && !isThirdOption ? (
-          <button 
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"
           onClick={() => {
             setOptionSelected(option1ID)
           }}
@@ -33,20 +33,20 @@ function Prompt ({
         </button>
         ): (
           <>
-        <button 
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"
           onClick={() => {
             setOptionSelected(option1ID)
           }}
         >{option1text}
         </button>
-        <button 
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"
           onClick={() => {
             setOptionSelected(option2ID)
           }}
         >{option2text}
         </button>
         { isThirdOption && 
-          <button 
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"
           onClick={() => {
             setOptionSelected(option3ID)
           }}
