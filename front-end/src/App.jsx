@@ -4,12 +4,14 @@ import DescriptionPage from './pages/descriptionPage';
 import StartPage from './pages/startPage';
 import HomePage from './pages/homePage';
 import Game from './pages/gamePage';
+import Header from './components/header';
 import Footer from './components/footer';
 
 function App() {
   return (
     <div>
     <div className="App">
+      <Header></Header>
       <Router>
         <Routes>
           <Route path='/' element={<HomePage/>}></Route>
