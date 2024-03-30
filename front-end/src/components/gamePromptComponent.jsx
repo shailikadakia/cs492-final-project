@@ -18,7 +18,7 @@ function Prompt ({
   return (
     <div className="Prompt Component bg-gray-900">
       <div className="promptImage p-8 mx-auto">
-        <img src={image} alt={altText}></img>
+        <img src={image} alt={altText} style={{ height: "50%", width: "50%" }}></img>
       </div>
       <div className="promptText text-zinc-100 text-left grid grid-cols-1 gap-3">
         {text.split("\n").map((i,key) => {
