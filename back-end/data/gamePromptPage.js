@@ -536,7 +536,7 @@ const gamePromptPage = {
     },
     {
       id: 41,
-      text: `You have successfully selected a few candidates to hire! As the HR manager, you are now responsible for choosing starting salaries for the new hires based on roles, experience, and market standards. 
+      text: `You have successfully selected a few candidates to hire! As the manager, you are now responsible for choosing starting salaries for the new hires based on roles, experience, and market standards. 
 
       The company has recently started using a SalaryAI tool to assist with setting compensation, and doing market analysis. The AI uses data analytics to set competitive salary offers for new hires. 
       The AI claims to optimize compensation packages by analyzing a vast array of market data, internal salary trends, and applicant's previous earnings.

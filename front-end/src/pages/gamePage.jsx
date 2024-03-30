@@ -32,14 +32,23 @@ function Game() {
 if (prompt.isGameOver) {
   return (
     <div>
-      <h2>Game Over</h2>
-      <pre style={{fontFamily:'fantasy'}}>{prompt.text}</pre>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
-        <Link to="/">Return to Home</Link>
-      </button>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
-        <Link to="/startGame">Play again</Link>
-      </button>
+      <h2 className="text-red-500 font-extrabold">Game Over!</h2>
+      <hr class="my-0 border-red-200 sm dark:border-red-700 lg:my-4" />
+      <br></br>
+      <img className="w-full md:w-1/2 mx-auto pb-10" src="../../../assets/GameOver1.jpg" />
+      <p className="grid grid-cols-1 gap-2 text-left text-white">{prompt.text.split("\n").map((i,key) => {
+            return <div key={key}><p>{i}</p></div>;
+        })}
+        </p>
+        <br></br>
+        <div className="grid grid-cols-2 gap-6">
+        <button class="gap-6 bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded">
+          <Link to="/">Return to Home</Link>
+        </button>
+        <button class="gap-6 bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded">
+          <Link to="/startGame">Play again</Link>
+        </button>
+      </div>
     </div>
   );
 }
