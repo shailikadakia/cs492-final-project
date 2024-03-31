@@ -19,3 +19,17 @@ pages:
       - public
   only:
     - main
+
+debug:
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker network ls
+    
+cleanup:
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker system prune -f
