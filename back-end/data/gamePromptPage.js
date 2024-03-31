@@ -4,7 +4,7 @@ const gamePromptPage = {
       id: 0,
       text: `Select your role. Choose betweeen 2 men who are 40, and 50 respectively and both white. 
       Did you know that 7.4% of all engineering managers are women, while 92.6% are men and the most common ethnicity of engineering managers is white at 71.0%?`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/SelectYourRole2WhiteMen.png",
       altText: `Add alt text`,
       option1ID: 1,
       option1text: `40 year old manager`,
@@ -246,7 +246,7 @@ const gamePromptPage = {
       The company uses an applicant tracking system (ATS) (ex. Workday, Taleo) that helps filter out candidates.
       The ATS automatically filters out resumes based on keywords, education, and experience.
       However, the ATS has inherent biases, leading to the exclusion of potentially qualified candidates.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/ATSscreening.png",
       altText: `Add alt text`,
       option1ID: 19,
       option1text: `Choose to review only the top-ranked resumes suggested by the ATS`,
@@ -262,7 +262,7 @@ const gamePromptPage = {
       All the selected candidates are Caucasian males at top engineering school. 
       
       You decide to continue using ATS, but look at the non top-ranked resumes as well and review the flags.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/ATSApprovedResumes.png",
       altText: `Add alt text`,
       option1ID: 21,
       option1text: `Continue using the ATS, but look at the non top ranked resumes as well and review the flags.`,
@@ -277,7 +277,7 @@ const gamePromptPage = {
       
       Due to the large number of applicants, this takes too long so you decide to use the filtered ATS results, 
       but also screen manually the flags to be more thorough and reduce bias.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/ManuallyApprovedResumes.png",
       altText: `Add alt text`,
       option1ID: 21,
       option1text: `Use the filtered ATS results, but also screen manually the flags to be more thorough and reduce bias.`,
@@ -289,7 +289,7 @@ const gamePromptPage = {
       who has 35+ years of experience in the industry. The ATS flags them due to age-related keywords. 
       
       Will you ignore the flag and proceed with this applicant?`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/OlderApplicantResume.png",
       altText: `Add alt text`,
       option1ID: 22,
       option1text: `Dismiss older candidates`,
@@ -299,7 +299,7 @@ const gamePromptPage = {
     {
       id: 22,
       text: `The team misses out on experienced talent, reinforcing age bias.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/SadTeam.png",
       altText: `Add alt text`,
       option1ID: 24,
       option1text: `Screen more candidates`,
@@ -308,7 +308,7 @@ const gamePromptPage = {
     {
       id: 23,
       text: `You discovers that some older candidates are highly skilled and now challenge age stereotypes.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/ChallengingAgeStereotypes.png",
       altText: `Add alt text`,
       option1ID: 24,
       option1text: `Screen more candidates`,
@@ -319,7 +319,7 @@ const gamePromptPage = {
       text: `You encounter a resume that is flagged due to the candidate having a diverse names. 
       Some names are less common or non-Western. The ATS may subtly favour familiar names. 
       The candidate in question, Rahul Kohli, matches the job requirements and seems like a good fit for the job.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/DiversityResumeDiscrimination.png",
       altText: `Add alt text`,
       option1ID: 25,
       option1text: `Go along with the ATS and prioritize resumes with familar names.`,
@@ -329,7 +329,7 @@ const gamePromptPage = {
     {
       id: 25,
       text: `The team misses out on diverse perspectives and perpetuates name-based bias.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/SadTeam.png",
       altText: `Add alt text`,
       option1ID: 27,
       option1text: `Screen more candidates`,
@@ -339,7 +339,7 @@ const gamePromptPage = {
       id: 26,
       text: `You learn about the impact of name bias. To combat this type of discrimation, 
       you hide the names of the resumes when reviewing them.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/DiverseTeam.png",
       altText: `Add alt text`,
       option1ID: 27,
       option1text: `Screen more candidates`,
@@ -349,7 +349,7 @@ const gamePromptPage = {
       id: 27,
       text: `You encounter Steve Lee’s resume, a candidates with a disability. 
       The ATS flags it as it struggles to interpret non-standard experiences.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/DisabilityResume.png",
       altText: `Add alt text`,
       option1ID: 28,
       option1text: `Dimiss Steve's resume`,
@@ -359,7 +359,7 @@ const gamePromptPage = {
     {
       id: 28,
       text: `The team unintentionally discriminates against disabled applicants.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/SadTeam.png",
       altText: `Add alt text`,
       option1ID: 30,
       option1text: `Screen more candidates`,
@@ -368,7 +368,7 @@ const gamePromptPage = {
     {
       id: 29,
       text: `You discover that unconventional experiences can be valuable and adjust the evaluation process to be more inclusive.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/DisabilityInclusiveTeam.png",
       altText: `Add alt text`,
       option1ID: 30,
       option1text: `Screen more candidates`,
@@ -376,13 +376,13 @@ const gamePromptPage = {
     },
     {
       id: 30,
-      text: `You encounter Lily Chen's resume, a candidate with a maternity age gap. The ATS flaggs her resume as a liability. 
+      text: `You encounter Lily Chen's resume, a candidate with a maternity age gap. The ATS flags her resume as a liability. 
       
       You must choose between 2 candidates: 
       Lily, a mom who is qualified with 3 years of experience but has a maternity leave gap 
       vs. 
       Rebbeca Snow, a less qualified candidate with 1.5 years of experience with no maternity gap.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/MomApplicant.png",
       altText: `Add alt text`,
       option1ID: 31,
       option1text: `Dimiss Lily's resume and choose Rebecca to move forward to the interview process`,
@@ -392,7 +392,7 @@ const gamePromptPage = {
     {
       id: 31,
       text: `The team unintentionally discriminates against moms.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/SadTeam.png",
       altText: `Add alt text`,
       option1ID: 33,
       option1text: `You finished screening candidates. Now you will move onto the interviewing stage.`,
@@ -402,7 +402,7 @@ const gamePromptPage = {
       id: 32,
       text: `You discover that having maternity leave gaps in someone's experience is 
       not a liability and brings valuable experiences and perspectives.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/DiverseTeamWithMoms.png",
       altText: `Add alt text`,
       option1ID: 33,
       option1text: `You finished screening candidates. Now you will move onto the interviewing stage.`,
