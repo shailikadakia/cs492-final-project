@@ -1,0 +1,21 @@
+image: node:18.17.1 # change to match your node version
+
+cache:
+  paths:
+    - node_modules/
+
+pages:
+  stage: deploy
+  script:
+    - cd front-end
+    - rm -rf build
+    - npm install
+    - npm run build
+    - mv build ../public
+    - cd ../back-end
+    - npm install
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
