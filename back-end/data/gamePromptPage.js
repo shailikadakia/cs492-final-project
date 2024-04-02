@@ -15,10 +15,10 @@ const gamePromptPage = {
       id: 1,
       text:  `Your name is John, a 40 year old manager recently promoted at Avengers4U. 
 
-      You’re first task is to hire a new software developer to join your team. 
+      Your first task is to hire a new software developer to join your team. 
       
       This is your first time hiring someone. You want to make a good impression on your team. The Talent Acquisition Specialist at Avengers4U offers you some resources to assist with hiring.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/Selected40YearOld.png",
       altText: `Add alt text`,
       option1ID: 3,
       option1text: `You respectfully decline`,
@@ -29,10 +29,10 @@ const gamePromptPage = {
       id: 2,
       text: `Your name is William, a 50 year old manager recently promoted at Avengers4U.
 
-      You’re first task is to hire a new software developer to join your team. This is your first time hiring someone. You want to make a good impression on your team. 
+      Your first task is to hire a new software developer to join your team. This is your first time hiring someone. You want to make a good impression on your team. 
       
       The Talent Acquisition Specialist at Avengers4U offers you some resources to assist with hiring.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/Selected50YearOld.png",
       altText: `Add alt text`,
       option1ID: 3,
       option1text: `You respectfully decline`,
@@ -46,7 +46,7 @@ const gamePromptPage = {
       You start by drafting the job description. You highlight the company’s commitment to diversity, aiming to attract a wide range of talented individuals. 
 
       You begin to picture the ideal candidate: A software engineer with 5 years of work experience that is not afraid to push the envelope. An ambitious and driven individual, active in the software development life cycle.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/DraftingJobDescription.png",
       altText:`Add alt text`,
       option1ID: 5,
       option1text: `You add these qualifications in the job description`,
@@ -72,7 +72,7 @@ const gamePromptPage = {
       
       You thank Maura for her help. You can't believe how naive you were. You decide to craft a job posting without the use of agentic words.
       `,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/BusinessManThankingBusinessWomen.png",
       altText: `Add alt text`,
       option1ID: 8,
       option1text: `You post the job posting on the job portal without approval`,
@@ -83,7 +83,7 @@ const gamePromptPage = {
       id: 5,
       text: `You want to get a new team member hired as soon as possible so you can move one to other tasks. 
       You decide to write the job description as you decided, without getting approval from Talent Acquisition.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/ManWithJobDescription.png",
       altText: `Add alt text`,
       option1ID: 6,
       option1text: `You are done writing the job posting.`,
@@ -109,7 +109,6 @@ const gamePromptPage = {
       Consequently, Maura decides to takes over the hiring process. 
 
       You are disappointed in yourself.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       isGameOver: true
     },
@@ -121,7 +120,7 @@ const gamePromptPage = {
        She explains that Textio uses natural language processing (NLP) to analyze job postings and suggest alternative language that is more inclusive and appealing to a diverse audience. 
       
       Intrigued by the recommendation, you decide to give Textio a try, appreciating the opportunity to leverage technology to address the biases in your job posting.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/Textio.jpg",
       altText: `Add alt text`,
       option1ID: 9,
       option1text: `You try using Textio`,
@@ -134,7 +133,6 @@ const gamePromptPage = {
       This way, the job posting can be appealing to a diverse audience. 
 
       You are disappointed that you did not ask for approval. It is important that the most qualified candidate is selected. Using tools like Textio ensure that no candidates are detered away from applying.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       isGameOver: true
     },
@@ -147,7 +145,7 @@ const gamePromptPage = {
       Finally, you think you have a inclusive and bias free job posting. 
 
       Now, you must publish the job posting.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/AboutToPublishJobPosting.png",
       altText: `Add alt text`,
       option1ID: 11,
       option1text: `You are looking forward to publishing the job posting.`,
@@ -161,7 +159,7 @@ const gamePromptPage = {
       As you are making your ad, your coworker Dan walks by. Dan is a senior engineer on your team. Dan says “Hope Google Ads isn’t the only place you’re promoting the job” and walks by.
       
       You sit there confused. What did Dan mean? `,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/ConfusedMan.png",
       altText: `Add alt text`,
       option1ID: 13,
       option1text: `You go to Dan to ask him for clarification`,
@@ -173,7 +171,7 @@ const gamePromptPage = {
       text: `You decide to ignore Dan. After all, you are the manager, not Dan. You trust your gut. 
       
       You post the advertisement and wait for all the talented applicants to apply.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/ConfidentMan.png",
       altText: `Add alt text`,
       option1ID: 14,
       option1text: `Wait for applicants to apply`,
@@ -186,7 +184,7 @@ const gamePromptPage = {
       Flipping through the applications, the first one is Tony Stark. He looks like a promising candidate, he made his own operating system. The second applicant is Steve Rogers, a civil engineer. The third applicant is Thor Odinson, a cloud engineer. As you flip through all 20 applications, you notice only 1 female applicant, Natasha Romanova. That’s weird, why was there a lack of diversity in this ad? 
 
       Feeling unmotivated, you decide to finally ask Dan what he meant about his Google Ad comment`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/UnmotivatedMan.png",
       altText: `Add alt text`,
       option1ID: 13,
       option1text: `Ask Dan to explain what he meant`,
@@ -201,7 +199,7 @@ const gamePromptPage = {
       Dan continues, “The model was trained on historical data. It learned from patterns that men are generally represented in high paying jobs compared to women”.
 
       Based on this conversation, what is your next step?`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/ConvoAboutGoogleAd.png",
       altText: `Add alt text`,
       option1ID: 15,
       option1text: `Ignore what Dan said and continue to hire from these candidates.`,
@@ -211,7 +209,6 @@ const gamePromptPage = {
     {
       id: 15,
       text: `Dan lets HR know about your conversation. They send you a warning that this would have been avoidable if you had excepted their help in the beginning. They take over hiring now. `,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       isGameOver: true
     },
@@ -223,7 +220,7 @@ const gamePromptPage = {
       
       You conclude that relying only on Google Ads will narrow your search for the most qualified applicant. 
       `,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/LinkedInPosting.png",
       altText: `Add alt text`,
       option1ID: 18,
       option1text: `Now, you wait for job applications`,
@@ -232,7 +229,7 @@ const gamePromptPage = {
     {
       id: 17,
       text: `Now, one week later, you have more diverse applicants. More individuals identifying as female and non-binary have applied.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/WomenApplyingToJob.png",
       altText: `Add alt text`,
       option1ID: 18,
       option1text: `You look forward to screening the applicants`,
@@ -506,7 +503,6 @@ const gamePromptPage = {
       A recent news article by the Washington Post also highlights that the Electronic Private Information Centre, or EPIC, said that HireVue’s AI-driven assessments produce 
       results that unfairly score people based on prejudices related to their gender, race, sexual orientation or neurological differences. Its disappointing to see this 
       reflected so personally in your own experience.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       isGameOver: true
     },
@@ -611,7 +607,6 @@ const gamePromptPage = {
     {
       id: 47,
       text: `GAME OVER! Due to AI’s inherent biases, company now faces legal action. The decision leads to internal unrest and public scrutiny as employees begin to openly discuss the clear disparity in compensation adjustments and a PR nightmare that damages the company's reputation.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       isGameOver: true
     },
@@ -647,7 +642,6 @@ const gamePromptPage = {
     {
       id: 51,
       text: `Success! Congratulations! You have successfully navigated through the entire process of hiring a candidate and completed the simulation. Most of your decisions led to an improved workplace culture, higher employee morale, and bolstered the company’s reputation for fairness. Well done!"`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       isGameOver: true
     },
@@ -655,7 +649,6 @@ const gamePromptPage = {
       id: 52,
       text: `Failure :(. Unfortunately, the decision to follow AI recommendations without scrutiny resulted in overlooking qualified candidates, fostering workplace bias, and leading to a loss of talent. 
       This serves as a hard lesson on the importance of human oversight in AI processes.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       isGameOver: true
     },
@@ -671,7 +664,6 @@ const gamePromptPage = {
       This serves as a hard lesson on the importance of human oversight in AI processes.
       You have failed the simulation! Restart the simulation. 
       `,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       isGameOver: true
     }
