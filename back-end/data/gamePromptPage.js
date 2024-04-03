@@ -56,20 +56,22 @@ const gamePromptPage = {
       id: 4,
       text: `You decide to ask the Talent Acquisition Specialist for advice. Maura is glad that you reached out!
 
-      Maura tells you that the job posting reflects implicit biases. Surprised, she continues that the word embeddings used by the Google News dataset answered the analogy that a man is a computer programmer and a woman is a homemaker. 
+      Maura tells you that the job posting reflects implicit biases. Surprised, she continues that the word embeddings used by the Google News dataset answered the analogy that a man is a computer programmer and a woman is a homemaker (Bolukbasi et al., 2016). 
       She explains that word embeddings are a way of representing words for text analysis in the form of real-valued vectors. These vectors preserve semantic and syntactic information, but they can also reflect social biases. 
       The model trained on the Google News dataset, for example, associated certain occupations more closely with one gender than the other, reinforcing stereotypes. 
 
-      This is why it's crucial to use language that doesn’t promote implicit biases, especially in the context of algorithms. Algorithms, particularly those used in natural language processing (NLP) and machine learning, can amplify biases present in the data they are trained on. 
+      While this happened many years ago, it serves as an important reminder to write job postings with language that doesn’t promote implicit biases. Algorithms, particularly those used in natural language processing (NLP) and machine learning, can amplify biases present in the data they are trained on. 
       If job postings use biased language, these biases can be learned and perpetuated by the algorithms, leading to unfair outcomes in candidate selection.
 
-      Communal traits are typically associated with behaviors that involve nurturing, caring, and connecting with others. These traits are often stereotypically attributed to women, reflecting societal expectations around care giving and emotional labor. 
-      In job postings, communal language might include words like "collaborate," "support," and "connect," which can be seen as more inclusive and appealing to a diverse audience.
+      In a study on German job postings, it found that gender-stereotypical words were frequently used in job postings (Böhm et al., 2020). In fact, text analysis algorithms have the ability to detect occupational stereotypes in text. These gendered words stem from the stereotype that men typically identify with agentic goals while women typically associate with communal goals (Tang et al., 2017).
 
-      On the other hand, agentic traits are associated with behaviors that involve assertiveness, independence, and achievement. These traits are often stereotypically attributed to men, reflecting societal expectations around leadership and competitiveness. 
-      In job postings, agentic language might include words like "ambitious," "driven," and "active”. Maura adds that the job portal at Avengers4U extrapolates the information from the job posting to show the job to the ideal candidate. 
-      In this case,  male applicants were more likely to see the job posting due to the use of agentic words. 
-      
+      Agentic traits are associated with behaviors that involve assertiveness, independence, and achievement. These traits are often stereotypically attributed to men, reflecting societal expectations around leadership and competitiveness. In job postings, agentic language might include words like "ambitious," "driven," and "active”.
+
+      Communal traits are typically associated with behaviors that involve nurturing, caring, and connecting with others. These traits are often stereotypically attributed to women, reflecting societal expectations around care giving and emotional labor. In job postings, communal language might include words like "collaborate," "support," and "connect". 
+
+      Maura adds that the job portal at Avengers4U extrapolates the information from the job posting to show the job to the ideal candidate. It has been trained on past data to determine the ideal candidate, which in the past have been men. In this case, male applicants were more likely to see the job posting due to the use of agentic words. 
+      As a result, as a company, we strive to write gender-neutral job postings so that the portal does not have an implict bias towards some candidates.
+
       You thank Maura for her help. You can't believe how naive you were. You decide to craft a job posting without the use of agentic words.
       `,
       image: "../../assets/BusinessManThankingBusinessWomen.png",
@@ -91,19 +93,22 @@ const gamePromptPage = {
     },
     {
       id: 6,
-      text: ` Maura tells you that the job posting reflects implicit biases. Surprised, she continues that the word embeddings used by the Google News dataset answered the analogy that a man is a computer programmer and a woman is a homemaker. 
+      text: ` Maura tells you that the job posting reflects implicit biases. Surprised, she continues that the word embeddings used by the Google News dataset answered the analogy that a man is a computer programmer and a woman is a homemaker (Bolukbasi et al., 2016). 
       She explains that word embeddings are a way of representing words for text analysis in the form of real-valued vectors. These vectors preserve semantic and syntactic information, but they can also reflect social biases. 
       The model trained on the Google News dataset, for example, associated certain occupations more closely with one gender than the other, reinforcing stereotypes. 
 
-      This is why it's crucial to use language that doesn’t promote implicit biases, especially in the context of algorithms. Algorithms, particularly those used in natural language processing (NLP) and machine learning, can amplify biases present in the data they are trained on. 
+      While this happened many years ago, it serves as an important reminder to write job postings with language that doesn’t promote implicit biases. Algorithms, particularly those used in natural language processing (NLP) and machine learning, can amplify biases present in the data they are trained on. 
       If job postings use biased language, these biases can be learned and perpetuated by the algorithms, leading to unfair outcomes in candidate selection.
 
-      Communal traits are typically associated with behaviors that involve nurturing, caring, and connecting with others. These traits are often stereotypically attributed to women, reflecting societal expectations around care giving and emotional labor. 
-      In job postings, communal language might include words like "collaborate," "support," and "connect," which can be seen as more inclusive and appealing to a diverse audience.
+      In a study on German job postings, it found that gender-stereotypical words were frequently used in job postings (Böhm et al., 2020). In fact, text analysis algorithms have the ability to detect occupational stereotypes in text. These gendered words stem from the stereotype that men typically identify with agentic goals while women typically associate with communal goals (Tang et al., 2017).
 
-      On the other hand, agentic traits are associated with behaviors that involve assertiveness, independence, and achievement. These traits are often stereotypically attributed to men, reflecting societal expectations around leadership and competitiveness. 
-      In job postings, agentic language might include words like "ambitious," "driven," and "active”. Maura adds that the job portal at Avengers4U extrapolates the information from the job posting to show the job to the ideal candidate. 
-      In this case,  male applicants were more likely to see the job posting due to the use of agentic words. 
+      Agentic traits are associated with behaviors that involve assertiveness, independence, and achievement. These traits are often stereotypically attributed to men, reflecting societal expectations around leadership and competitiveness. In job postings, agentic language might include words like "ambitious," "driven," and "active”.
+
+      Communal traits are typically associated with behaviors that involve nurturing, caring, and connecting with others. These traits are often stereotypically attributed to women, reflecting societal expectations around care giving and emotional labor. In job postings, communal language might include words like "collaborate," "support," and "connect". 
+
+      Maura adds that the job portal at Avengers4U extrapolates the information from the job posting to show the job to the ideal candidate. It has been trained on past data to determine the ideal candidate, which in the past have been men. In this case, male applicants were more likely to see the job posting due to the use of agentic words. 
+      As a result, as a company, we strive to write gender-neutral job postings so that the portal does not have an implict bias towards some candidates.
+
       You are surprised to hear this and Maura is disappointed that you did not take up on her offer for help.
       
       Consequently, Maura decides to takes over the hiring process. 
@@ -194,7 +199,7 @@ const gamePromptPage = {
       id: 13,
       text: `You pick up the courage to ask Dan what he meant. 
       
-      Dan is happy to see you. He says “There was a study done on Google’s Ad system and it found that it was more likely to display ads for high paying positions to male users than female users”. You are shocked. How can this be true? 
+      Dan is happy to see you. He says “There was a study done on Google’s Ad system and it found that it was more likely to display ads for high paying positions to male users than female users” (Carpenter, 2015). You are shocked. How can this be true? 
       
       Dan continues, “The model was trained on historical data. It learned from patterns that men are generally represented in high paying jobs compared to women”.
 
@@ -208,7 +213,9 @@ const gamePromptPage = {
     },
     {
       id: 15,
-      text: `Dan lets HR know about your conversation. They send you a warning that this would have been avoidable if you had excepted their help in the beginning. They take over hiring now. `,
+      text: `Dan lets HR know about your conversation. Despite the study being a few years old, Avengers4U is very serious about advertisements for job postings. HR believes job posting advertisements should always be made on more than 1 platform, to ensure all potential applicants have the same likelihood for success. 
+      
+      They send you a warning that this would have been avoidable if you had excepted their help in the beginning. They take over hiring now. `,
       altText: `Add alt text`,
       isGameOver: true
     },
