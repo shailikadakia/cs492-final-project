@@ -22,7 +22,7 @@ function HomePage() {
           <br></br>
           <h3>Ready to play?</h3>
           <br></br>
-          <button class= "bg-pink-400 animate-bounce hover:bg-pink-600 text-white font-semibold py-2 px-4 border border-sky-900 rounded"><Link to="/startGame">Start Game</Link></button>
+          <button className= "bg-pink-400 animate-bounce hover:bg-pink-600 text-white font-semibold py-2 px-4 border border-sky-900 rounded"><Link to="/startGame">Start Game</Link></button>
         </p>
       </div>
     </div>
