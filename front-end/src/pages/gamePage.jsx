@@ -1,11 +1,13 @@
 
 import { useState, useEffect } from "react";
 import Prompt from "../components/gamePromptComponent";
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+
 
 function Game() {
   const [gameData, setGameData] = useState(null);
   const [optionSelected, setOptionSelected] = useState(0);
+  let navigate = useNavigate();
 
   useEffect(() => {
     fetch("http://localhost:3000/api/game")
@@ -42,11 +44,13 @@ if (prompt.isGameOver) {
         </p>
         <br></br>
         <div className="grid grid-cols-2 gap-6">
-        <button class="gap-6 bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded">
-          <Link to="/">Return to Home</Link>
+        <button class="gap-6 bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded"
+        onClick={() => navigate('/')}
+        >Return to home
         </button>
-        <button class="gap-6 bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded">
-          <Link to="/startGame">Play again</Link>
+        <button class="gap-6 bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded"
+        onClick={() => navigate('/startGame')}>
+          Play again
         </button>
       </div>
     </div>
