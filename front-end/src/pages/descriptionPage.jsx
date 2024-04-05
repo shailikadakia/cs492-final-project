@@ -1,24 +1,7 @@
-import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'
-
 function DescriptionPage() {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:3000/api/description")
-      .then((res) => res.json())
-      .then((data) => setData(data))
-      .catch((error) => {
-        console.error("Error fetching data:", error);
-      });
-  }, []);
 
   return (
     <div className="DescriptionPage  bg-blue-950 min-h-screen text-neutral-100 text-left">
-        {/*{data.map((item) => (
-          <li key={item.id}>{item.id}</li>
-        ))}*/}
-        
       <img className='descriptionPage-HeaderImg' src="../../assets/descriptionPage.webp" height="400"/>
       <div className='descriptionPage-TextContainer'>
         <h2 className="text-center font-extrabold text-pink-400">The Hidden Bias: An Interactive Exploration of AI in Hiring</h2>
@@ -34,17 +17,17 @@ function DescriptionPage() {
           Can you build a fair and inclusive team, or will unconscious biases derail your efforts?
         </p>
 
-        <section class="feature-section">
+        <section className="feature-section">
           <h3 className="font-bold text-pink-400 gap-6">Features</h3>
-          <ul class="feature-list">
-            <li class="feature-item">
+          <ul className="feature-list">
+            <li className="feature-item">
               <p><strong>Real-World Inspiration:</strong> Discover how gender, sexual identity, minority status, age, and even a gap on a resume can lead to biased outcomes, inspired by genuine cases of AI discrimination.</p>
               
             </li>
-            <li class="feature-item">
+            <li className="feature-item">
               <p><strong>The Ripple Effect: </strong> Experience how even minor choices have consequences throughout the hiring process.</p>
             </li>
-            <li class="feature-item">
+            <li className="feature-item">
               <p><strong>Feedback Loops:</strong> Get insights into your decisions, helping you identify common traps and understand the complexities of AI ethics.</p>
               
             </li>
@@ -58,7 +41,7 @@ function DescriptionPage() {
           Develop empathy for those impacted by discriminatory algorithms.
           Practice identifying and overcoming bias in a safe environment.
         </p>
-        <button class="bg-indigo-900 hover:border-pink-500 hover:border text-white font-semibold py-2 px-4 grid grid-cols-1">Start Playing, Start Learning!</button>
+        <button className="bg-indigo-900 hover:border-pink-500 hover:border text-white font-semibold py-2 px-4 grid grid-cols-1">Start Playing, Start Learning!</button>
       </div>
 
     </div>
