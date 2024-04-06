@@ -1,4 +1,8 @@
+import { useNavigate} from 'react-router-dom'
+
 function DescriptionPage() {
+  let navigate = useNavigate();
+
 
   return (
     <div className="DescriptionPage  bg-blue-950 min-h-screen text-neutral-100 text-left">
@@ -41,7 +45,10 @@ function DescriptionPage() {
           Develop empathy for those impacted by discriminatory algorithms.
           Practice identifying and overcoming bias in a safe environment.
         </p>
-        <button className="bg-indigo-900 hover:border-pink-500 hover:border text-white font-semibold py-2 px-4 grid grid-cols-1">Start Playing, Start Learning!</button>
+        <button className="bg-pink-400 animate-bounce hover:bg-pink-600 text-white font-semibold py-2 px-4 border border-sky-900 rounded content-center"
+          onClick={() => navigate('/startGame')}>
+            Start Playing, Start Learning!
+          </button>
       </div>
 
     </div>

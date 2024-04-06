@@ -63,14 +63,14 @@ const gamePromptPage = {
       While this happened many years ago, it serves as an important reminder to write job postings with language that doesn’t promote implicit biases. Algorithms, particularly those used in natural language processing (NLP) and machine learning, can amplify biases present in the data they are trained on. 
       If job postings use biased language, these biases can be learned and perpetuated by the algorithms, leading to unfair outcomes in candidate selection.
 
-      In a study on German job postings, it found that gender-stereotypical words were frequently used in job postings (Böhm et al., 2020). In fact, text analysis algorithms have the ability to detect occupational stereotypes in text. These gendered words stem from the stereotype that men typically identify with agentic goals while women typically associate with communal goals (Tang et al., 2017).
+      In a study on German job postings, it found that gender-stereotypical words were frequently used in job postings (Böhm et al., 2020). In fact, text analysis algorithms can detect occupational stereotypes in text. These gendered words stem from the stereotype that men typically identify with agentic goals while women typically associate with communal goals (Tang et al., 2017).
 
       Agentic traits are associated with behaviors that involve assertiveness, independence, and achievement. These traits are often stereotypically attributed to men, reflecting societal expectations around leadership and competitiveness. In job postings, agentic language might include words like "ambitious," "driven," and "active”.
 
-      Communal traits are typically associated with behaviors that involve nurturing, caring, and connecting with others. These traits are often stereotypically attributed to women, reflecting societal expectations around care giving and emotional labor. In job postings, communal language might include words like "collaborate," "support," and "connect". 
+      Communal traits are typically associated with behaviors that involve nurturing, caring, and connecting with others. These traits are often stereotypically attributed to women, reflecting societal expectations around caregiving and emotional labor. In job postings, communal language might include words like "collaborate," "support," and "connect". 
 
-      Maura adds that the job portal at Avengers4U extrapolates the information from the job posting to show the job to the ideal candidate. It has been trained on past data to determine the ideal candidate, which in the past have been men. In this case, male applicants were more likely to see the job posting due to the use of agentic words. 
-      As a result, as a company, we strive to write gender-neutral job postings so that the portal does not have an implict bias towards some candidates.
+      Maura adds that the job portal at Avengers4U extrapolates the information from the job posting to show the job to the ideal candidate. It has been trained on past data to determine the ideal candidate, which in the past had been men. In this case, male applicants were more likely to see the job posting due to the use of agentic words. 
+      As a result, as a company, we strive to write gender-neutral job postings so that the portal does not have an implicit bias toward some candidates.
 
       You thank Maura for her help. You can't believe how naive you were. You decide to craft a job posting without the use of agentic words.
       `,
@@ -100,18 +100,18 @@ const gamePromptPage = {
       While this happened many years ago, it serves as an important reminder to write job postings with language that doesn’t promote implicit biases. Algorithms, particularly those used in natural language processing (NLP) and machine learning, can amplify biases present in the data they are trained on. 
       If job postings use biased language, these biases can be learned and perpetuated by the algorithms, leading to unfair outcomes in candidate selection.
 
-      In a study on German job postings, it found that gender-stereotypical words were frequently used in job postings (Böhm et al., 2020). In fact, text analysis algorithms have the ability to detect occupational stereotypes in text. These gendered words stem from the stereotype that men typically identify with agentic goals while women typically associate with communal goals (Tang et al., 2017).
+      In a study on German job postings, it found that gender-stereotypical words were frequently used in job postings (Böhm et al., 2020). In fact, text analysis algorithms can detect occupational stereotypes in text. These gendered words stem from the stereotype that men typically identify with agentic goals while women typically associate with communal goals (Tang et al., 2017).
 
       Agentic traits are associated with behaviors that involve assertiveness, independence, and achievement. These traits are often stereotypically attributed to men, reflecting societal expectations around leadership and competitiveness. In job postings, agentic language might include words like "ambitious," "driven," and "active”.
 
-      Communal traits are typically associated with behaviors that involve nurturing, caring, and connecting with others. These traits are often stereotypically attributed to women, reflecting societal expectations around care giving and emotional labor. In job postings, communal language might include words like "collaborate," "support," and "connect". 
+      Communal traits are typically associated with behaviors that involve nurturing, caring, and connecting with others. These traits are often stereotypically attributed to women, reflecting societal expectations around caregiving and emotional labor. In job postings, communal language might include words like "collaborate," "support," and "connect". 
 
-      Maura adds that the job portal at Avengers4U extrapolates the information from the job posting to show the job to the ideal candidate. It has been trained on past data to determine the ideal candidate, which in the past have been men. In this case, male applicants were more likely to see the job posting due to the use of agentic words. 
-      As a result, as a company, we strive to write gender-neutral job postings so that the portal does not have an implict bias towards some candidates.
+      Maura adds that the job portal at Avengers4U extrapolates the information from the job posting to show the job to the ideal candidate. It has been trained on past data to determine the ideal candidate, which in the past had been men. In this case, male applicants were more likely to see the job posting due to the use of agentic words. 
+      As a result, as a company, we strive to write gender-neutral job postings so that the portal does not have an implicit bias toward some candidates.
 
       You are surprised to hear this and Maura is disappointed that you did not take up on her offer for help.
       
-      Consequently, Maura decides to takes over the hiring process. 
+      Consequently, Maura decides to take over the hiring process. 
 
       You are disappointed in yourself.`,
       altText: `Add alt text`,
@@ -137,7 +137,7 @@ const gamePromptPage = {
       text: `Maura is disappointed that you did not ask for approval. She explains that Textio is a tool they run job postings by to detect biased language and suggest alternative language. 
       This way, the job posting can be appealing to a diverse audience. 
 
-      You are disappointed that you did not ask for approval. It is important that the most qualified candidate is selected. Using tools like Textio ensure that no candidates are detered away from applying.`,
+      You are disappointed that you did not ask for approval. It is important that the most qualified candidate is selected. Using tools like Textio ensures that no candidates are deterred away from applying.`,
       altText: `Add alt text`,
       isGameOver: true
     },
@@ -145,9 +145,9 @@ const gamePromptPage = {
       id: 9,
       text: `Intrigued by the recommendation, you decide to give Textio a try, appreciating the opportunity to leverage technology to address the biases in your job posting.
       
-      Textio is a great tool! It highlights word choices that show gender bias and suggesting alternatives.
+      Textio is a great tool! It highlights word choices that show gender bias and suggests alternatives.
 
-      Finally, you think you have a inclusive and bias free job posting. 
+      Finally, you think you have an inclusive and bias-free job posting. 
 
       Now, you must publish the job posting.`,
       image: "../../assets/AboutToPublishJobPosting.png",
@@ -199,9 +199,9 @@ const gamePromptPage = {
       id: 13,
       text: `You pick up the courage to ask Dan what he meant. 
       
-      Dan is happy to see you. He says “There was a study done on Google’s Ad system and it found that it was more likely to display ads for high paying positions to male users than female users” (Carpenter, 2015). You are shocked. How can this be true? 
+      Dan is happy to see you. He says “There was a study done on Google’s Ad system and it found that it was more likely to display ads for high-paying positions to male users than female users” (Carpenter, 2015). You are shocked. How can this be true? 
       
-      Dan continues, “The model was trained on historical data. It learned from patterns that men are generally represented in high paying jobs compared to women”.
+      Dan continues, “The model was trained on historical data. It learned from patterns that men are generally represented in high-paying jobs compared to women”.
 
       Based on this conversation, what is your next step?`,
       image: "../../assets/ConvoAboutGoogleAd.png",
@@ -215,7 +215,7 @@ const gamePromptPage = {
       id: 15,
       text: `Dan lets HR know about your conversation. Despite the study being a few years old, Avengers4U is very serious about advertisements for job postings. HR believes job posting advertisements should always be made on more than 1 platform, to ensure all potential applicants have the same likelihood for success. 
       
-      They send you a warning that this would have been avoidable if you had excepted their help in the beginning. They take over hiring now. `,
+      They send you a warning that this would have been avoidable if you had accepted their help in the beginning. They take over hiring now. `,
       altText: `Add alt text`,
       isGameOver: true
     },
@@ -246,41 +246,35 @@ const gamePromptPage = {
       id: 18,
       text: `You are now on the screening stage. 
       
-      You have received many diverse applications in regards to gender, age, ethnicity, etc for the role. 
-      The company uses an applicant tracking system (ATS) (ex. Workday, Taleo) that helps filter out candidates.
-      The ATS automatically filters out resumes based on keywords, education, and experience.
+      You have received many diverse applications in regard to gender, age, ethnicity, etc for the role. The company uses an applicant tracking system (ATS) (ex. Workday, Taleo) that helps filter out candidates. The ATS automatically filters out resumes based on keywords, education, and experience.
       However, the ATS has inherent biases, leading to the exclusion of potentially qualified candidates.`,
       image: "../../assets/ATSscreening.png",
       altText: `Add alt text`,
       option1ID: 19,
       option1text: `Choose to review only the top-ranked resumes suggested by the ATS`,
       option2ID: 20,
-      option2text: `Manually review all reseumes`
+      option2text: `Manually review all resumes`
     },
     {
       id: 19,
-      text: `You choose to review only the top-ranked resumes suggested by the ATS.
-      This perpetuates bias because the ATS might favour certain backgrounds or keywords. 
+      text: `You choose to review only the top-ranked resumes suggested by the ATS. This perpetuates bias because the ATS might favour certain backgrounds or keywords. 
       
-      The top-ranked resumes selected by the ATS are not diverse. 
-      All the selected candidates are Caucasian males at top engineering school. 
+      The top-ranked resumes selected by the ATS are not diverse. All the selected candidates are Caucasian males at top engineering schools. 
       
-      You decide to continue using ATS, but look at the non top-ranked resumes as well and review the flags.`,
+      You decide to continue using ATS, but look at the non-top-ranked resumes as well and review the flags.`,
       image: "../../assets/ATSApprovedResumes.png",
       altText: `Add alt text`,
       option1ID: 21,
-      option1text: `Continue using the ATS, but look at the non top ranked resumes as well and review the flags.`,
+      option1text: `Continue using the ATS, but look at the non-top ranked resumes as well and review the flags.`,
       isTransition: true
     },
     {
       id: 20,
-      text: `You manually review all resumes, even those flagged by the ATS. 
-      This requires more effort but ensures a fairer evaluation. 
+      text: `You manually review all resumes, even those flagged by the ATS. This requires more effort but ensures a fairer evaluation. 
 
       You find there is a lot of hidden bias in the ATS algorithm as the ATS favours certain backgrounds and keywords. 
       
-      Due to the large number of applicants, this takes too long so you decide to use the filtered ATS results, 
-      but also screen manually the flags to be more thorough and reduce bias.`,
+      Due to the large number of applicants, this takes too long so you decide to use the filtered ATS results, but also screen manually the flags to be more thorough and reduce bias.`,
       image: "../../assets/ManuallyApprovedResumes.png",
       altText: `Add alt text`,
       option1ID: 21,
@@ -289,8 +283,7 @@ const gamePromptPage = {
     },
     {
       id: 21,
-      text: `You encounter a resume from an older candidate. Anne Brown is an experienced software developer 
-      who has 35+ years of experience in the industry. The ATS flags them due to age-related keywords. 
+      text: `You encounter a resume from an older candidate. Anne Brown is an experienced software developer who has 35+ years of experience in the industry. The ATS flags them due to age-related keywords. 
       
       Will you ignore the flag and proceed with this applicant?`,
       image: "../../assets/OlderApplicantResume.png",
@@ -302,16 +295,25 @@ const gamePromptPage = {
     },
     {
       id: 22,
-      text: `The team misses out on experienced talent, reinforcing age bias.`,
+      text: `Maura, the Talent Acquisition Specialist informs you that this was an example of age discrimination.
+      
+      She adds that 99% of Fortune 500 companies filter candidates using ATS. However, the the U.S. Equal Employment Opportunity Commission (EEOC) settled its first lawsuit related to age discrimination. The EEOC alleged that the ATS used to screen applicants was discriminatory in rejecting older applicants. 
+
+      Maura explains that this is why screening cannot solely be based on the use of ATS. It is important to go through the resumes flagged by ATS for age-related keywords to ensure no discrimination occurs.
+
+      As a result, the team misses out on experienced talent. You are disappointed in yourself.`,
       image: "../../assets/SadTeam.png",
       altText: `Add alt text`,
       option1ID: 24,
       option1text: `Screen more candidates`,
-      isTransition: true
+      isTransition: true,
+      isGameOver: true
     },
     {
       id: 23,
-      text: `You discovers that some older candidates are highly skilled and now challenge age stereotypes.`,
+      text: `You discover that some older candidates are highly skilled and now challenge age stereotypes. While some ATS can flag applicants due to age bias, it is important to hire with a fair and inclusive mindset.
+      
+      In fact, the U.S. Equal Employment Opportunity Commission (EEOC) settled its first lawsuit related to age discrimination. The EEOC alleged that the ATS used to screen applicants was discriminatory in rejecting older applicants. `,
       image: "../../assets/ChallengingAgeStereotypes.png",
       altText: `Add alt text`,
       option1ID: 24,
@@ -320,29 +322,35 @@ const gamePromptPage = {
     },
     {
       id: 24,
-      text: `You encounter a resume that is flagged due to the candidate having a diverse names. 
-      Some names are less common or non-Western. The ATS may subtly favour familiar names. 
+      text: `You encounter a resume that is flagged due to the candidate having a diverse name.  Some names are less common or non-Western. The ATS may subtly favour familiar names. 
+
       The candidate in question, Rahul Kohli, matches the job requirements and seems like a good fit for the job.`,
       image: "../../assets/DiversityResumeDiscrimination.png",
       altText: `Add alt text`,
       option1ID: 25,
-      option1text: `Go along with the ATS and prioritize resumes with familar names.`,
+      option1text: `Go along with the ATS and prioritize resumes with familiar names.`,
       option2ID: 26,
       option2text: `Move forward to the interview stage with Rahul`
     },
     {
       id: 25,
-      text: `The team misses out on diverse perspectives and perpetuates name-based bias.`,
+      text: `Maura, the Talent Acquisition Specialist informs you that this was an example of name discrimination.
+      
+      She adds that 95% of studies on recruitment where researchers create fictitious applicants identify high ethnic discrimination. On average, ethnic minority applicants receive half as many positive responses (Adamovic, 2021). In fact, white-sounding names receive 50% more callbacks for interviews (Bertrand and Mullainathan, 2003). 
+
+      As a result, the team misses out on the right talent. You are disappointed in yourself.`,
       image: "../../assets/SadTeam.png",
       altText: `Add alt text`,
       option1ID: 27,
       option1text: `Screen more candidates`,
-      isTransition: true
+      isTransition: true,
+      isGameOver: true
     },
     {
       id: 26,
-      text: `You learn about the impact of name bias. To combat this type of discrimation, 
-      you hide the names of the resumes when reviewing them.`,
+      text: `You learn about the impact of name bias. You discover that 95% of studies on recruitment where researchers create fictitious applicants identify high ethnic discrimination. On average, ethnic minority applicants receive half as many positive responses (Adamovic, 2021). In fact, white-sounding names receive 50% more callbacks for interviews (Bertrand and Mullainathan, 2003). 
+      
+      To combat this type of discrimination, you hide the names of the resumes when reviewing them.`,
       image: "../../assets/DiverseTeam.png",
       altText: `Add alt text`,
       option1ID: 27,
@@ -351,27 +359,36 @@ const gamePromptPage = {
     },
     {
       id: 27,
-      text: `You encounter Steve Lee’s resume, a candidates with a disability. 
-      The ATS flags it as it struggles to interpret non-standard experiences.`,
+      text: `You encounter Steve Lee’s resume, a candidate with a disability. The ATS flags it during the online tests to assess job skills since it ranked poorly for the use of keystrokes.`,
       image: "../../assets/DisabilityResume.png",
       altText: `Add alt text`,
       option1ID: 28,
       option1text: `Dimiss Steve's resume`,
       option2ID: 29,
-      option2text: `Investigate further and considers alternative qualifications that Steve has`
+      option2text: `Investigate further and consider alternative qualifications that Steve has`
     },
     {
       id: 28,
-      text: `The team unintentionally discriminates against disabled applicants.`,
+      text: `Maura, the Talent Acquisition Specialist informs you that this was an example of disability-based discrimination.
+      
+      She adds that the U.S. Federal Government ruled that if AI is used to unfairly screen candidates with disabilities, it could violate civil rights laws. Using ATS to assess applicants can screen candidates with physical disabilities and severe arthritis (O'Brien, 2022). 
+
+      As a result, the team misses out on the right talent and you almost cause a lawsuit. You are disappointed in yourself.`,
       image: "../../assets/SadTeam.png",
       altText: `Add alt text`,
       option1ID: 30,
       option1text: `Screen more candidates`,
-      isTransition: true
+      isTransition: true,
+      isGameOver: true
     },
     {
       id: 29,
-      text: `You discover that unconventional experiences can be valuable and adjust the evaluation process to be more inclusive.`,
+      text: `You discover that unconventional experiences can be valuable and adjust the evaluation process to be more inclusive.
+      
+      You discover that the U.S. Federal Government ruled that if AI is used to unfairly screen candidates with disabilities, it could violate civil rights laws. Using ATS to assess applicants can screen candidates with physical disabilities and severe arthritis (O'Brien, 2022). 
+
+      Therefore, it is not only ethically right to be inclusive during screening but also legal.
+      `,
       image: "../../assets/DisabilityInclusiveTeam.png",
       altText: `Add alt text`,
       option1ID: 30,
@@ -380,12 +397,7 @@ const gamePromptPage = {
     },
     {
       id: 30,
-      text: `You encounter Lily Chen's resume, a candidate with a maternity age gap. The ATS flags her resume as a liability. 
-      
-      You must choose between 2 candidates: 
-      Lily, a mom who is qualified with 3 years of experience but has a maternity leave gap 
-      vs. 
-      Rebbeca Snow, a less qualified candidate with 1.5 years of experience with no maternity gap.`,
+      text: `You encounter Lily Chen's resume, a candidate with a maternity age gap. The ATS flags her resume as a liability. You must choose between 2 candidates: Lily, a mom who is qualified with 3 years of experience but has a maternity leave gap vs. Rebbeca Snow, a less qualified candidate with 1.5 years of experience with no maternity gap.`,
       image: "../../assets/MomApplicant.png",
       altText: `Add alt text`,
       option1ID: 31,
@@ -395,17 +407,21 @@ const gamePromptPage = {
     },
     {
       id: 31,
-      text: `The team unintentionally discriminates against moms.`,
+      text: `Maura, the Talent Acquisition Specialist informs you that this was an example of discrimination against moms.
+
+      She adds that some applicants who had maternity leave gaps in their resumes were being flagged as a liability and screened out (Liberatore, 2023). 
+
+      As a result, the team misses out on the right talent. You are disappointed in yourself.`,
       image: "../../assets/SadTeam.png",
       altText: `Add alt text`,
       option1ID: 33,
       option1text: `You finished screening candidates. Now you will move onto the interviewing stage.`,
-      isTransition: true
+      isTransition: true,
+      isGameOver: true
     },
     {
       id: 32,
-      text: `You discover that having maternity leave gaps in someone's experience is 
-      not a liability and brings valuable experiences and perspectives.`,
+      text: `You discover that having maternity leave gaps in someone's experience is not a liability and brings valuable experiences and perspectives.`,
       image: "../../assets/DiverseTeamWithMoms.png",
       altText: `Add alt text`,
       option1ID: 33,
@@ -414,13 +430,13 @@ const gamePromptPage = {
     },
     {
       id: 33,
-      text: `You’re now on the interviewing stage.
+      text: `You’re now in the interviewing stage.
 
       You have quite a few candidates to interview and responsibilities for projects on your team that you also need to take care of simultaneously. 
       
       You know that if you continue to thoroughly interview all these candidates yourself, you won’t be abe to meet your project deadlines and select the hire in 2 weeks.
       
-      You start to research possible technologies to use in the interview process. The company has used HireVue in the past and you think it would be helpful in expediting the process.`,
+      You start to research possible technologies to use in the interview process. The company has used HireVue in the past and you think it would help expedite the process.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 34,
@@ -449,7 +465,7 @@ const gamePromptPage = {
       Most candidates have not submitted feedback about the tool but there are a few bad reviews that indicate candidate displeasure. 
       
       A recent news article by the Washington Post also highlights that the Electronic Private Information Centre, or EPIC, said that HireVue’s AI-driven assessments produce results that are 
-      “biased, unprovable and not replicable” and could unfairly score someone based on prejudices related to their gender, race, sexual orientation or neurological differences.`,
+      “biased, unprovable and not replicable” and could unfairly score someone based on prejudices related to their gender, race, sexual orientation or neurological differences (Harewell, 2019).`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 37,
@@ -461,7 +477,7 @@ const gamePromptPage = {
     },
     {
       id: 36,
-      text: `You recall doing some AI supported calls as an interviewee in the past and remember how it impacted your confidence. 
+      text: `You recall doing some AI-supported calls as an interviewee in the past and remember how it impacted your confidence. 
       
       You felt as if there was minimal opportunity to showcase your skill set during the interview and provided shorter interview answers since there was a lack of genuine interaction. 
       You recall your African-American friend also telling you that they had a frustrating and discriminatory experience where the algorithm did not even recognize them. 
@@ -487,15 +503,15 @@ const gamePromptPage = {
       Nicole, who was a stellar candidate and great communicator during the technical interview, was rated much lower than Steve, who you found to be a bit off-putting. 
       You dive deeper into the information that the algorithm gathered for both candidates and begin to worry.
       
-      Nicole was well-dressed for the interview and answered confidently in the allotted time. The algorithm had caught the positive keywords she used as well. 
-      But the algorithm has indicated that she looked angry and was not well-suited to the job due to a bad temper. Comparatively, Steve’s score is pretty accurate.  
+      Nicole was well-dressed for the interview and answered confidently in the allotted time. The algorithm caught the positive keywords she used as well. 
+      However, the algorithm has indicated that she looked angry and was not well-suited to the job due to a bad temper. Comparatively, Steve’s score is pretty accurate.  
       
-      You do some more digging and find that facial-analysis software shows error rate of 0.8 percent for light-skinned men compared to 34.7 percent for dark-skinned women. 
-      Machine Learning Automated Decision Making, or ML-ADM, often exhibits gender and skin-type bias that is unfair to women and incorrectly assessed Nicole’s facial expressions and tone.`,
+      You do some more digging and find that facial-analysis software shows an error rate of 0.8 percent for light-skinned men compared to 34.7 percent for dark-skinned women. 
+      Machine Learning Automated Decision Making, or ML-ADM, often exhibits gender and skin-type bias that is unfair to women and incorrectly assessed Nicole’s facial expressions and tone (Hardesty, 2018).`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 38,
-      option1text: `You decide to trust the algorithm and reject candidates like Nicole due to extremely low score by HireVue.`,
+      option1text: `You decide to trust the algorithm and reject candidates like Nicole due to an extremely low score by HireVue.`,
       option2ID: 39,
       option2text: `You decide to go with your gut and move candidates like Nicole forward, despite the extremely low score by HireVue.`,
     },
@@ -505,10 +521,10 @@ const gamePromptPage = {
 
       Nicole asks how she could improve after receiving a rejection email and you aren’t able to explain why the AI hiring system believed she was unfit for the role.
       
-      The final batch of candidates after interviews is not as  diverse as it would have been had you not put your full faith in the algorithm. 
+      The final batch of candidates after interviews is not as diverse as it would have been had you not put your full faith in the algorithm. 
       
       A recent news article by the Washington Post also highlights that the Electronic Private Information Centre, or EPIC, said that HireVue’s AI-driven assessments produce 
-      results that unfairly score people based on prejudices related to their gender, race, sexual orientation or neurological differences. Its disappointing to see this 
+      results that unfairly score people based on prejudices related to their gender, race, sexual orientation or neurological differences (Harwell, 2019). It's disappointing to see this 
       reflected so personally in your own experience.`,
       altText: `Add alt text`,
       isGameOver: true
@@ -544,14 +560,14 @@ const gamePromptPage = {
       The company has recently started using a SalaryAI tool to assist with setting compensation, and doing market analysis. The AI uses data analytics to set competitive salary offers for new hires. 
       The AI claims to optimize compensation packages by analyzing a vast array of market data, internal salary trends, and applicant's previous earnings.
 
-      Using such an AI tool makes the process relatively easier and saves so much time. However, the AI system might have some unintentional biases. 
+      Using such an AI tool makes the process relatively easier and saves a lot of time. However, the AI system might have some unintentional biases. 
       
       Your company has hired for two key positions: Software Engineer and a Marketing Analyst. Both positions have top-tier candidates, Maya Khan and Nate Perez for engineering both of whom are final-round candidates from minority backgrounds.
       SalaryAI returns with the salary suggestions: $80,000 for Sophia and $70,000 for Nate. However, you know the market rate for these positions at companies similar to yours is $100,000 for software engineering and $85,000 for marketing analysts.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 42,
-      option1text: `You choose to compare both Nate and Maya's qualifications and previous roles as well as current employees salary compensation in the company and the market.`,
+      option1text: `You choose to compare both Nate and Maya's qualifications and previous roles as well as current employees' salary compensation in the company and the market.`,
       option2ID: 43,
       option2text: `You decide to go ahead with the AI's recommended salaries and pay packages, trusting the AI's analysis is comprehensive and objective.`,
     },
@@ -561,7 +577,7 @@ const gamePromptPage = {
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 48,
-      option1text: `The numbers are in, and the stage is set. PromoAI 2.0 has been adjusting its algorithm and meticulously evaluated your team's performance, and destinies are about to change. Some will rise, while others may stay on their current path. Time to find out who's the office superstar and who's been slacking off in the meme-sharing department!`,
+      option1text: `The numbers are in, and the stage is set. PromoAI 2.0 has been adjusting its algorithm and meticulously evaluating your team's performance, and destinies are about to change. Some will rise, while others may stay on their current path. Time to find out who's the office superstar and who's been slacking off in the meme-sharing department!`,
       isTransition: true
     },
     {
@@ -576,11 +592,11 @@ const gamePromptPage = {
       option1ID: 44,
       option1text: `Puzzled by the analysis from the AI system and being mindful of the risk, you choose to dig deeper. `,
       option2ID: 45,
-      option2text: `You choose to go ahead with the AI suggested pays confidently as they align with organization’s values of data-driven decisions and AI’s “unbiasness” as many cite in news.  `,
+      option2text: `You choose to go ahead with the AI suggested pay confidently as they align with the organization’s values of data-driven decisions and AI’s “unbiased” as many cite in the news.  `,
     },
     {
       id: 45,
-      text: `GAME OVER! Due to AI’s inherent biases, company now faces legal action. The decision leads to internal unrest and public scrutiny as employees begin to openly discuss the clear disparity in compensation adjustments and a PR nightmare that damages the company's reputation.`,
+      text: `Due to AI’s inherent biases, the company now faces legal action. The decision leads to internal unrest and public scrutiny as employees begin to openly discuss the clear disparity in compensation adjustments and a PR nightmare that damages the company's reputation.`,
       image: "",
       altText: `add alt text`,
       isGameOver: true
@@ -588,9 +604,9 @@ const gamePromptPage = {
     },
     {
       id: 44,
-      text: `You can see that based on historical data and current employees in that role, suggested a lower salary for Nate for this analyst role and Maya for the engineering role. 
+      text: `You can see that based on historical data and current employees' in that role, suggested a lower salary for Nate for this analyst role and Maya for the engineering role. 
       SalaryAI recommends salaries for new hires that are surprisingly lower for women and minority groups, despite their similar qualifications to other candidates. 
-      It heavily factors in previous candidates salaries and although Maya and Nate are excellent candidates, salaries are way below market rate due to the systematic underpayment of minorities in tech industry. 
+      It heavily factors in previous candidates' salaries and although Maya and Nate are excellent candidates, salaries are way below market rate due to the systematic underpayment of minorities in technology industry. 
 
       Despite this bias, you realize manually searching for market rate is time-consuming.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
@@ -598,7 +614,7 @@ const gamePromptPage = {
       option1ID: 46,
       option1text: `So, you decide to go ahead with the suggested salaries by AI and adjust it manually to ensure pay equity. You adjusted Maya's offer to ensure parity, mindful of the company's commitment to diversity and equality.
       
-      You immediately rectify the situation by increasing their pays and add more benefits to their roles and tell the HR team to manually compare the salary set by AI to avoid such issues in the future. `,
+      You immediately rectify the situation by increasing their pay and adding more benefits to their roles. You notify the HR team to manually compare the salary set by AI to avoid such issues in the future. `,
       option2ID: 47,
       option2text: `You choose to go ahead with Salary AI’s suggestions and collaborate with the team to send the new hires their respective pay and benefits package. `,
     },
@@ -608,12 +624,12 @@ const gamePromptPage = {
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 48,
-      option1text: `The numbers are in, and the stage is set. PromoAI 2.0 has been adjusting its algorithm and meticulously evaluated your team's performance, and destinies are about to change. Some will rise, while others may stay on their current path. Time to find out who's the office superstar and who's been slacking off in the meme-sharing department!`,
+      option1text: `The numbers are in, and the stage is set. PromoAI 2.0 has been adjusting its algorithm and meticulously evaluating your team's performance, and destinies are about to change. Some will rise, while others may stay on their current path. Time to find out who's the office superstar and who's been slacking off in the meme-sharing department!`,
       isTransition: true
     },
     {
       id: 47,
-      text: `GAME OVER! Due to AI’s inherent biases, company now faces legal action. The decision leads to internal unrest and public scrutiny as employees begin to openly discuss the clear disparity in compensation adjustments and a PR nightmare that damages the company's reputation.`,
+      text: `Due to AI’s inherent biases, the company now faces legal action. The decision leads to internal unrest and public scrutiny as employees begin to openly discuss the clear disparity in compensation adjustments and a PR nightmare that damages the company's reputation.`,
       altText: `Add alt text`,
       isGameOver: true
     },
@@ -648,7 +664,7 @@ const gamePromptPage = {
     },
     {
       id: 51,
-      text: `Success! Congratulations! You have successfully navigated through the entire process of hiring a candidate and completed the simulation. Most of your decisions led to an improved workplace culture, higher employee morale, and bolstered the company’s reputation for fairness. Well done!"`,
+      text: `Success! Congratulations! You have successfully navigated through the entire process of hiring a candidate and completed the simulation. Most of your decisions led to an improved workplace culture, and higher employee morale, and bolstered the company’s reputation for fairness. Well done!"`,
       altText: `Add alt text`,
       isGameOver: true
     },
