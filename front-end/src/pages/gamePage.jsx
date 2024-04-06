@@ -6,7 +6,7 @@ import { Link, useNavigate } from 'react-router-dom'
 
 function Game() {
   const [gameData, setGameData] = useState(null);
-  const [optionSelected, setOptionSelected] = useState(0);
+  const [optionSelected, setOptionSelected] = useState(33);
   let navigate = useNavigate();
 
   useEffect(() => {
@@ -34,7 +34,6 @@ function Game() {
 if (prompt.isGameOver) {
   return (
     <div>
-      <h2 className="text-red-500 font-extrabold">Game Over!</h2>
       <hr className="my-0 border-red-200 sm dark:border-red-700 lg:my-4" />
       <br></br>
       <img className="w-full md:w-1/2 mx-auto pb-10" src="../../../assets/GameOver1.jpg" />
@@ -44,11 +43,11 @@ if (prompt.isGameOver) {
         </p>
         <br></br>
         <div className="grid grid-cols-2 gap-6">
-        <button class="gap-6 bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded"
+        <button className="gap-6 bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded"
         onClick={() => navigate('/')}
         >Return to home
         </button>
-        <button class="gap-6 bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded"
+        <button className="gap-6 bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded"
         onClick={() => navigate('/startGame')}>
           Play again
         </button>
