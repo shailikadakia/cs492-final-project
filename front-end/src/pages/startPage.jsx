@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function StartPage() {
+  let navigate = useNavigate();
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -25,7 +26,10 @@ function StartPage() {
           <h3>You have just been promoted to Engineering Manager at Avengers4U.</h3>
           <h3>You are thrilled to take on this new role and lead a team of talented engineers.</h3>
           <br></br>
-          <button className='rounded-sm bg-indigo-600 hover:border-2 hover:border-neutral-500 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 text-white font-semibold py-2 px-4 sm-rounded"'><Link to="/game" style={{textDecoration: 'none'}}>Continue...</Link></button>
+          <button className='rounded-sm bg-indigo-600 hover:border-2 hover:border-neutral-500 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 text-white font-semibold py-2 px-4 sm-rounded'
+          onClick={() => navigate('/game')}
+            >Continue...
+          </button>
 
         </div>
         

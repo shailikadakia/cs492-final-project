@@ -1,6 +1,7 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function HomePage() {
+  let navigate = useNavigate()
   return (
     <div className="HomePage">
         <img className='border-x-violet-500 homePage-HeaderImg mx-auto' src="../../../assets/AITeamLookingAtCandidate.webp" alt="AI ethics" height="200"/>
@@ -22,7 +23,10 @@ function HomePage() {
           <br></br>
           <h3>Ready to play?</h3>
           <br></br>
-          <button className= "bg-pink-400 animate-bounce hover:bg-pink-600 text-white font-semibold py-2 px-4 border border-sky-900 rounded"><Link to="/startGame">Start Game</Link></button>
+          <button className= "bg-pink-400 animate-bounce hover:bg-pink-600 text-white font-semibold py-2 px-4 border border-sky-900 rounded"
+            onClick={() => navigate('/startGame')}
+          >Start Game!
+          </button>
         </p>
       </div>
     </div>
