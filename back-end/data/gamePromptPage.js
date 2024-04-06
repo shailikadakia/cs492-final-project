@@ -555,25 +555,27 @@ const gamePromptPage = {
     },
     {
       id: 41,
-      text: `You have successfully selected a few candidates to hire! As the manager, you are now responsible for choosing starting salaries for the new hires based on roles, experience, and market standards. 
+      text: `You have successfully selected a few candidates to hire! As the engineering manager, you are now responsible for choosing starting salaries for the new hires based on roles, experience, and market standards. 
 
       The company has recently started using a SalaryAI tool to assist with setting compensation, and doing market analysis. The AI uses data analytics to set competitive salary offers for new hires. 
       The AI claims to optimize compensation packages by analyzing a vast array of market data, internal salary trends, and applicant's previous earnings.
 
       Using such an AI tool makes the process relatively easier and saves a lot of time. However, the AI system might have some unintentional biases. 
       
-      Your company has hired for two key positions: Software Engineer and a Marketing Analyst. Both positions have top-tier candidates, Maya Khan and Nate Perez for engineering both of whom are final-round candidates from minority backgrounds.
+      Your company has hired for two key positions: Software Engineer and a UI Analyst. Both positions have top-tier candidates, Maya Khan and Nate Perez from minority backgrounds.
       SalaryAI returns with the salary suggestions: $80,000 for Sophia and $70,000 for Nate. However, you know the market rate for these positions at companies similar to yours is $100,000 for software engineering and $85,000 for marketing analysts.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 42,
-      option1text: `You choose to compare both Nate and Maya's qualifications and previous roles as well as current employees' salary compensation in the company and the market.`,
+      option1text: `Compare SalaryAI's figures with independent market research and review  Maya and Nate's qualifications thoroughly.`,
       option2ID: 43,
-      option2text: `You decide to go ahead with the AI's recommended salaries and pay packages, trusting the AI's analysis is comprehensive and objective.`,
+      option2text: `Trust AI's recommended salaries and pay packages, trusting the AI's analysis is comprehensive and objective.`,
     },
     {
       id: 42,
-      text: `By manually checking, you understand the importance of human oversight in AI decisions, promoting equity and preventing bias. You learn that while AI tools can be helpful, they must be regularly audited and adjusted to serve the company's values of fairness and equality. `,
+      text: `By manually checking, you understand the importance of human oversight in AI decisions, promoting equity and preventing bias. 
+      
+      You learn that while AI tools can be helpful, they must be regularly audited and adjusted to serve the company's values of fairness and equality. `,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 48,
@@ -583,16 +585,18 @@ const gamePromptPage = {
     {
       id: 43,
       text: `This, however, might perpetuate pay disparity based on BIPOC and gender.
+      However, the offers feel unsettlingly low for Maya and Nate.
+      News breaks that companies like Uber and Doordash's complex pay algorithms have also been criticized for their potential to perpetuate unfair pay outcomes due (Subramaniam, V. 2023).
       
-      You make the offers as suggested. However, Nate and Maya might soon discover they are being paid less than market rates and less than their peers for similar roles.
+      If you make the offers as suggested, Nate and Maya might soon discover they are being paid less than market rates and less than their peers for similar roles.
       
-      RISK: They feel undervalued and start looking for new opportunities. Your decision can lead to turnover issues.`,
+      RISK: Your decision can lead to turnover issues. Could this be a sign of deeper problems?`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 44,
-      option1text: `Puzzled by the analysis from the AI system and being mindful of the risk, you choose to dig deeper. `,
+      option1text: `Being mindful of the legal issues and employee dissatisfaction, you choose to dig deeper. `,
       option2ID: 45,
-      option2text: `You choose to go ahead with the AI suggested pay confidently as they align with the organization’s values of data-driven decisions and AI’s “unbiased” as many cite in the news.  `,
+      option2text: `Choose to go ahead with the AI suggested pay confidently as they align with the organization’s values of data-driven decisions and AI’s “unbiasedness".  `,
     },
     {
       id: 45,
@@ -604,19 +608,31 @@ const gamePromptPage = {
     },
     {
       id: 44,
-      text: `You can see that based on historical data and current employees' in that role, suggested a lower salary for Nate for this analyst role and Maya for the engineering role. 
-      SalaryAI recommends salaries for new hires that are surprisingly lower for women and minority groups, despite their similar qualifications to other candidates. 
+      text: `It seems you might have made the right choice! You can see that based on historical data and current employees' in that role, SalaryAI suggested a lower salary for Nate for this analyst role and Maya for the engineering role. 
+      
+      SalaryAI recommends salaries for new hires that are surprisingly lower for women and minority groups, despite their similar qualifications to other candidates. It has been factoring in past salaries, perpetuating systemic underpayment of minorities. 
       It heavily factors in previous candidates' salaries and although Maya and Nate are excellent candidates, salaries are way below market rate due to the systematic underpayment of minorities in technology industry. 
-
+      
       Despite this bias, you realize manually searching for market rate is time-consuming.`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 46,
-      option1text: `So, you decide to go ahead with the suggested salaries by AI and adjust it manually to ensure pay equity. You adjusted Maya's offer to ensure parity, mindful of the company's commitment to diversity and equality.
-      
-      You immediately rectify the situation by increasing their pay and adding more benefits to their roles. You notify the HR team to manually compare the salary set by AI to avoid such issues in the future. `,
+      option1text: `Decide to go ahead with the suggested salaries by AI and adjust it manually to ensure pay equity. You adjusted Maya's offer to ensure parity, mindful of the company's commitment to diversity and equality. `,
+      option3ID: 53, 
+      option3text: 'Immediately increase Maya and Nates pay, notify HR, and launch an audit of SalaryAI to ensure future fairness.',
       option2ID: 47,
-      option2text: `You choose to go ahead with Salary AI’s suggestions and collaborate with the team to send the new hires their respective pay and benefits package. `,
+      option2text: `Go ahead with Salary AI’s suggestions and collaborate with the team to send the new hires their respective pay and benefits package. `,
+    },
+    {
+      id: 53,
+      text: `The bias audit report is troubling. SalaryAI's algorithms do exhibit subtle biases mirroring common societal ones.  
+      Working with developers, you implement adjustments and delay reviews until the model is fairer. This costs time but bolsters trust.`,
+      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      altText: `Add alt text`,
+      option1ID: 48,
+      option1text: `Proceed with the re calibrated AI, mindful you'll need spot-checks to ensure its ongoing fairness.`,
+      option2ID: 51, 
+      option2text: 'Initiate a company-wide ethics training program on AI bias, emphasizing the importance of human oversight',
     },
     {
       id: 46,
@@ -637,29 +653,34 @@ const gamePromptPage = {
       id: 48,
       text: ` 2 years later......
       
-      It has now been 2 years and it's time for performance reviews and potential promotions, and you're now working with PromoAI 2.0 tool which is trained on evaluating performance, and managing promotions. 
-      It is designed to assist in promotion decisions, performance evaluations, and salary adjustments. The system analyzes employee performance data, feedback, and historical trends to make recommendations.
+      It has now been 2 years and it's time for performance reviews and potential promotions!, PromoAI 2.0 tool is being used now which is trained on evaluating performance, and managing promotions. 
+      It is designed to assist in promotion decisions, performance evaluations, and salary adjustments. The system analyzes employee performance data(e.g. project contribution), feedback, and historical trends to make recommendations. 
       
-      Decision: You are tasked with reviewing the AI-recommended list of employees for promotions and salary increases. The system has also provided a percentile ranking for each employee based on their performance metrics.`,
+      PromoAI 2.0 is ready, but recent news of biased facial analysis tools has you on edge. HR team member mentions in the ethics training that studies highlight potential for gender, minority, and age biases in AI-driven performance evaluations (Sanaullah, N. 2020). 
+      Sometimes, predictive tools that rely on analysis of facial, audio, or physical interaction with a computer increase the risk that individuals will be automatically rejected or scored lower on the basis of disabilities, race, and other protected characteristics (Askelrod, O. 2023).
+      
+      Decision: You are tasked with reviewing the AI-recommended list of employees for promotions and salary increases. The system has also provided a percentile ranking for each employee based on their performance metrics. Deadline looms...what do you do?`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 49,
-      option1text: `You choose to do a combined approach of manual checking and using AI.`,
+      option1text: `Choose to do a combined approach of manual, spot checking and review AI-generated evaluations.`,
       option2ID: 50,
-      option2text: `You trust and go ahead with the AI created list as the process is very time-consuming.`,
+      option2text: `Trust Gen AI's comprehensive analysis. It's been trained extensively and manual review is time-consuming.`,
     },
     {
       id: 49,
-      text: `You remember there’s been a situation where a MAC employee has been fired due to facial analysis conducting performance reviews. 
+      text: `Recently, news breaks about a MAC employee fired after AI-powered facial analysis flagged her as disengaged, demonstrating the real-world risks of biased performance reviews (Nachiappan, A. 2024).
       
-      As you review the list, you notice that the top 10% recommended for significant promotions and raises are predominantly male, despite the workforce being more diverse. 
-      Upon a closer examination, you find that most of the female employees and those from minority groups are clustered around the middle or bottom of the percentile rankings.`,
+      As you review the list, you spot concerning patterns. 
+      You notice that the top 10% recommended for significant promotions and raises are predominantly male, despite the workforce being more diverse. 
+      Upon a closer examination, you find that most of the female employees and those from minority groups are clustered around the middle or bottom of the percentile rankings.
+      You notice concerning patterns. Some older employees seem to be consistently rated lower, despite positive feedback from their managers.  Additionally, a few women on your team have been tagged with terms like "needs more assertiveness."`,
       image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
       altText: `Add alt text`,
       option1ID: 51,
-      option1text: `You adjust the promotions based on your employees' merit.`,
+      option1text: `Intervene and adjust the promotions based on your employees' merit.`,
       option2ID: 52,
-      option2text: `You send the new findings to the developer team and re-train the model to provide accurate results.`,
+      option2text: `Accept the scores as they are and send the new findings to the your team to re-train the model, concerned that manual adjustments might be subjective.`,
       isTransition: true
     },
     {
@@ -670,7 +691,8 @@ const gamePromptPage = {
     },
     {
       id: 52,
-      text: `Failure :(. Unfortunately, the decision to follow AI recommendations without scrutiny resulted in overlooking qualified candidates, fostering workplace bias, and leading to a loss of talent. 
+      text: `Failure :(. Unfortunately, the decision to follow AI recommendations without scrutiny resulted in overlooking qualified candidates, fostering workplace bias, and leading to a loss of talent. Soon, discontent simmers.
+      Seasoned employees, many from minority groups,  feel undervalued. Morale plummets, and several talented individuals start leaving. The company faces backlash, with rumors of ageism and gender discrimination brewing
       This serves as a hard lesson on the importance of human oversight in AI processes.`,
       altText: `Add alt text`,
       isGameOver: true

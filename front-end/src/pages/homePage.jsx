@@ -1,4 +1,4 @@
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function HomePage() {
   let navigate = useNavigate()
@@ -21,7 +21,8 @@ function HomePage() {
           This interactive simulation will guide you through real-world scenarios, teaching you the hidden biases in hiring and see if you can build a truly fair workplace.
           Let's explore the power and pitfalls of using AI in hiring. Discover how it can help -and sometimes hinder- finding the best people.  
           <br></br>
-          <h3>Ready to play?</h3>
+          <br></br>
+          <h3 className='font-bold'>Ready to play?</h3>
           <br></br>
           <button className= "bg-pink-400 animate-bounce hover:bg-pink-600 text-white font-semibold py-2 px-4 border border-sky-900 rounded"
             onClick={() => navigate('/startGame')}

@@ -7,8 +7,9 @@ function DescriptionPage() {
   return (
     <div className="DescriptionPage  bg-blue-950 min-h-screen text-neutral-100 text-left">
       <img className='descriptionPage-HeaderImg' src="../../assets/descriptionPage.webp" height="400"/>
+      <br></br>
       <div className='descriptionPage-TextContainer'>
-        <h2 className="text-center font-extrabold text-pink-400">The Hidden Bias: An Interactive Exploration of AI in Hiring</h2>
+        <h2 className="text-center font-extrabold underline text-pink-400">The Hidden Bias: An Interactive Exploration of AI in Hiring</h2>
         <p className='descriptionPage-text text-left'>
           
           Algorithms seem efficient, neutral tools.  But what happens when the data used to train AI reflects the all-too-human biases of our world?  
@@ -45,10 +46,15 @@ function DescriptionPage() {
           Develop empathy for those impacted by discriminatory algorithms.
           Practice identifying and overcoming bias in a safe environment.
         </p>
-        <button className="bg-pink-400 animate-bounce hover:bg-pink-600 text-white font-semibold py-2 px-4 border border-sky-900 rounded content-center"
-          onClick={() => navigate('/startGame')}>
-            Start Playing, Start Learning!
-          </button>
+        <br></br>
+        <br></br>
+        <div className='text-center'>
+          <button className="bg-pink-400 hover:bg-pink-600 text-white font-semibold py-2 px-4 border border-sky-900 rounded content-center mt-6"
+            onClick={() => navigate('/startGame')}>
+              Start Playing, Start Learning!
+            </button>
+        </div>
+        <br></br>
       </div>
 
     </div>
