@@ -6,7 +6,7 @@ import { Link, useNavigate } from 'react-router-dom'
 
 function Game() {
   const [gameData, setGameData] = useState(null);
-  const [optionSelected, setOptionSelected] = useState(33);
+  const [optionSelected, setOptionSelected] = useState(0);
   let navigate = useNavigate();
 
   useEffect(() => {
