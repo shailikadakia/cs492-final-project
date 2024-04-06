@@ -15,9 +15,7 @@ function StartPage() {
 
   return (
     <div className="StartPage  h-1/4 flex justify-center items-center bg-indigo-950 border-2 border-rose-400 text-neutral-100 rounded-sm" >
-        {/*data.map((item) => (
-          <li key={item.id}>{item.id}</li>
-        ))*/}
+
         <img width="400" height="300" src="../../../assets/manager.webp"/>
          <div className='startPage-TextContainer p-8'>
 

@@ -48,8 +48,8 @@ function DescriptionPage() {
         </p>
         <br></br>
         <br></br>
-        <div className='grid grid-cols-1 content-center'>
-          <button className="bg-pink-400 hover:bg-pink-600 text-white font-semibold py-4 border border-sky-900 rounded"
+        <div className='text-center'>
+          <button className="bg-pink-400 animate-bounce hover:bg-pink-600 text-white font-semibold py-2 px-4 border border-sky-900 rounded content-center mt-6"
             onClick={() => navigate('/startGame')}>
               Start Playing, Start Learning!
             </button>
