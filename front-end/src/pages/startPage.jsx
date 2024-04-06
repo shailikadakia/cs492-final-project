@@ -1,24 +1,11 @@
-import { useState, useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function StartPage() {
   let navigate = useNavigate();
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:3000/api/start")
-      .then((res) => res.json())
-      .then((data) => setData(data))
-      .catch((error) => {
-        console.error("Error fetching data:", error);
-      });
-  }, []);
 
   return (
     <div className="StartPage  h-1/4 flex justify-center items-center bg-indigo-950 border-2 border-rose-400 text-neutral-100 rounded-sm" >
-        {/*data.map((item) => (
-          <li key={item.id}>{item.id}</li>
-        ))*/}
+
         <img width="400" height="300" src="../../../assets/manager.webp"/>
          <div className='startPage-TextContainer p-8'>
 

@@ -1,6 +1,5 @@
 const express = require("express");
 const cors = require("cors")
-const startPageData = require("../data/startPage")
 const gamePromptPage = require("../data/gamePromptPage")
 const jobPostingData = require("../data/jobPostingRefsPage")
 const screeningData = require("../data/screeningRefPage")
@@ -30,10 +29,6 @@ app.get("/api/references/interview", (req, res) => {
 
 app.get("/api/references/postselection", (req, res) => {
   res.json(postSelectionData.data);
-});
-
-app.get("/api/start", (req, res) => {
-  res.json(startPageData.data);
 });
 
 app.get("/api/game", (req, res) => {

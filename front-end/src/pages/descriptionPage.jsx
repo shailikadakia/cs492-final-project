@@ -5,7 +5,7 @@ function DescriptionPage() {
 
 
   return (
-    <div className="DescriptionPage  bg-blue-950 min-h-screen text-neutral-100 text-left">
+    <div className="DescriptionPage  bg-blue-950 min-h-screen text-neutral-100 justify-center items-center">
       <img className='descriptionPage-HeaderImg' src="../../assets/descriptionPage.webp" height="400"/>
       <div className='descriptionPage-TextContainer'>
         <h2 className="text-center font-extrabold text-pink-400">The Hidden Bias: An Interactive Exploration of AI in Hiring</h2>
@@ -45,7 +45,7 @@ function DescriptionPage() {
           Develop empathy for those impacted by discriminatory algorithms.
           Practice identifying and overcoming bias in a safe environment.
         </p>
-        <button className="bg-pink-400 animate-bounce hover:bg-pink-600 text-white font-semibold py-2 px-4 border border-sky-900 rounded content-center"
+        <button className="bg-pink-400 animate-bounce hover:bg-pink-600 text-white font-semibold py-2 px-4 border border-sky-900 rounded content-center mt-6"
           onClick={() => navigate('/startGame')}>
             Start Playing, Start Learning!
           </button>
