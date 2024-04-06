@@ -9,7 +9,7 @@ function DescriptionPage() {
       <img className='descriptionPage-HeaderImg' src="../../assets/descriptionPage.webp" height="400"/>
       <br></br>
       <div className='descriptionPage-TextContainer'>
-        <h2 className="text-center font-extrabold text-pink-400">The Hidden Bias: An Interactive Exploration of AI in Hiring</h2>
+        <h2 className="text-center font-extrabold underline text-pink-400">The Hidden Bias: An Interactive Exploration of AI in Hiring</h2>
         <p className='descriptionPage-text text-left'>
           
           Algorithms seem efficient, neutral tools.  But what happens when the data used to train AI reflects the all-too-human biases of our world?  

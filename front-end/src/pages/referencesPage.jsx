@@ -28,8 +28,9 @@ function ReferencesPage() {
   []);
 
   return (
-    <div className="References Page bg-blue-950 min-h-screen text-neutral-100 text-left flex flex-col space-y-8">
+    <div className="References Page bg-gray-900 min-h-screen text-neutral-100 text-left flex flex-col space-y-8">
       <div>
+        <br></br>
         <h1 className='text-center font-extrabold text-pink-400'>Job Posting References</h1>
           <div className='flex flex-col space-y-4'>
             {jobPostingData.map((item) => (
