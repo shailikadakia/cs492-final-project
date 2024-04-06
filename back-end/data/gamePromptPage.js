@@ -437,7 +437,7 @@ const gamePromptPage = {
       You know that if you continue to thoroughly interview all these candidates yourself, you won’t be abe to meet your project deadlines and select the hire in 2 weeks.
       
       You start to research possible technologies to use in the interview process. The company has used HireVue in the past and you think it would help expedite the process.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/ConsideringHireVue.png",
       altText: `Add alt text`,
       option1ID: 34,
       option1text: `The algorithmic technology seems like the perfect solution for your problem.`,
@@ -450,7 +450,7 @@ const gamePromptPage = {
     {
       id: 34,
       text: `You decide to go ahead with the technology and think it’ll be great in giving a baseline to compare all interviewees and expedite the decision-making process immensely.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/ManGivingAThumbsUp.png",
       altText: `Add alt text`,
       option1ID: 37,
       option1text: `Continue.`,
@@ -466,7 +466,7 @@ const gamePromptPage = {
       
       A recent news article by the Washington Post also highlights that the Electronic Private Information Centre, or EPIC, said that HireVue’s AI-driven assessments produce results that are 
       “biased, unprovable and not replicable” and could unfairly score someone based on prejudices related to their gender, race, sexual orientation or neurological differences (Harewell, 2019).`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/CameraAnalysis.png",
       altText: `Add alt text`,
       option1ID: 37,
       option1text: `You decide to go ahead with the technology but make it a small part of the decision-making process. 
@@ -490,7 +490,7 @@ const gamePromptPage = {
       impact on the candidate’s work. You also use an interview scorecard that grades candidates’ responses on a per-determined scale and have 2 interviewers attend each interview. 
       
       Interviews went a bit over the deadline but they were a success and the team is excited about a few diverse candidates who made it past interviews`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/BusinessMeeting.png",
       altText: `Add alt text`,
       option1ID: 41,
       option1text: `Move to post selection.`,
@@ -508,7 +508,7 @@ const gamePromptPage = {
       
       You do some more digging and find that facial-analysis software shows an error rate of 0.8 percent for light-skinned men compared to 34.7 percent for dark-skinned women. 
       Machine Learning Automated Decision Making, or ML-ADM, often exhibits gender and skin-type bias that is unfair to women and incorrectly assessed Nicole’s facial expressions and tone (Hardesty, 2018).`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/EmployableScore.png",
       altText: `Add alt text`,
       option1ID: 38,
       option1text: `You decide to trust the algorithm and reject candidates like Nicole due to an extremely low score by HireVue.`,
@@ -532,7 +532,7 @@ const gamePromptPage = {
     {
       id: 39,
       text: `Due to your decision, the final batch of candidates after interviews is more diverse than it would have been had you listened to the algorithm`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/DiverseCandidates.jpg",
       altText: `Add alt text`,
       option1ID: 41,
       option1text: `Move to post selection.`,
@@ -547,7 +547,7 @@ const gamePromptPage = {
       candidate's work. You also use an interview scorecard that grades candidates’ responses on a per-determined scale and have 2 interviewers attend each interview. 
       
       Interviews went a bit over the deadline but they were a success and the team is excited about a few diverse candidates who made it past interviews.`,
-      image: "https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins/@@images/1a36b305-412d-405e-a38b-0947ce6709ba.jpeg",
+      image: "../../assets/BusinessMeeting.png",
       altText: `Add alt text`,
       option1ID: 41,
       option1text: `Move to post selection.`,
