@@ -31,30 +31,58 @@ function Game() {
   const prompt = gameData.find(prompt => prompt.id === optionSelected);
   console.log(prompt.id)
 
-if (prompt.isGameOver) {
-  return (
-    <div>
-      <hr className="my-0 border-red-200 sm dark:border-red-700 lg:my-4" />
-      <br></br>
-      <img className="w-full md:w-1/2 mx-auto pb-10" src="../../../assets/GameOver1.jpg" />
-      <p className="grid grid-cols-1 gap-2 text-left text-white">{prompt.text.split("\n").map((i,key) => {
-            return <div key={key}><p>{i}</p></div>;
-        })}
-        </p>
+  if (prompt.isGameOver) {
+    return (
+      <div>
+        <hr className="my-0 border-red-200 sm dark:border-red-700 lg:my-4" />
         <br></br>
-        <div className="grid grid-cols-2 gap-6">
-        <button className="gap-6 bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded"
-        onClick={() => navigate('/')}
-        >Return to home
-        </button>
-        <button className="gap-6 bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded"
-        onClick={() => navigate('/startGame')}>
-          Play again
-        </button>
+        <img className="w-full md:w-1/2 mx-auto pb-10" src="https://i.ibb.co/QNg8z48/stop.jpg" />
+        <h1 className='text-center font-extrabold text-pink-400'>STOP!</h1>
+        <p className="grid grid-cols-1 gap-2 text-left text-pink-400 font-semibold">Your actions are considered unethical.</p>
+        <p className="grid grid-cols-1 gap-2 text-left text-white">{prompt.text.split("\n").map((i,key) => {
+              return <div key={key}><p>{i}</p></div>;
+          })}
+          </p>
+          <br></br>
+          <div className="grid grid-cols-2 gap-6">
+          <button className="gap-6 bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded"
+          onClick={() => navigate('/')}
+          >Return to home
+          </button>
+          <button className="gap-6 bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded"
+          onClick={() => navigate('/startGame')}>
+            Play again
+          </button>
+        </div>
       </div>
-    </div>
-  );
-}
+    );
+  }
+  if (prompt.isSuccess) {
+    return (
+      <div>
+        <hr className="my-0 border-red-200 sm dark:border-red-700 lg:my-4" />
+        <br></br>
+        <img className="w-full md:w-1/2 mx-auto pb-10" src="https://i.ibb.co/L9MTr8Q/success.jpg" />
+        <h1 className='text-center font-extrabold text-green-400'>Congratulations</h1>
+        <p className="grid grid-cols-1 gap-2 text-left text-green-400 font-semibold" >You  made the ethical choice.</p>
+        <p className="grid grid-cols-1 gap-2 text-left text-white">{prompt.text.split("\n").map((i,key) => {
+              return <div key={key}><p>{i}</p></div>;
+          })}
+          </p>
+          <br></br>
+          <div className="grid grid-cols-2 gap-6">
+          <button className="gap-6 bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded"
+          onClick={() => navigate('/')}
+          >Return to home
+          </button>
+          <button className="gap-6 bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded"
+          onClick={() => navigate('/startGame')}>
+            Play again
+          </button>
+        </div>
+      </div>
+    );
+  }
   const divStyle = {
     wordWrap: 'break-word',
     maxWidth: '600px',
