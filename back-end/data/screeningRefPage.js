@@ -5,10 +5,6 @@ const screeningData = {
       text: `Adamovic, A. (2021, June 8). Research Fellow in Management, M. (2021, June 8). What’s in a name? How recruitment discriminates against ‘foreign’ applicants. The Conversation. https://theconversation.com/whats-in-a-name-how-recruitment-discriminates-against-foreign-applicants-160695 `
   },
   {
-      id: 2, 
-      text: `Bertrand, M., & Mullainathan, S. (2003). Are Emily and Greg more employable than lakisha and Jamal? A field experiment on labor market discrimination. NBER Working Paper Series. https://doi.org/10.3386/w9873`
-  },
-  {
       id: 3, 
       text: `Davis, L. M. (2023, June 9). The new age of hiring: AI is changing the game for job seekers. CNET. https://www.cnet.com/tech/features/the-new-age-of-hiring-ai-is-changing-the-game-for-job-seekers/`
   },
