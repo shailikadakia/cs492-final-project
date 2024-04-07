@@ -2,6 +2,8 @@
 
 For our final project, we created an engaging create-your-own-adventure game from the perspective of the engineering manager who has to make difficult decisions related to AI Algorithms in the hiring process. Players are presented with different decisions while hiring a new team member to highlight the impact of seemingly small decisions that can lead to discriminatory outcomes. There are four stages in the game: making a job posting, screening candidates, interviewing candidates, and sending out job offers. Players encounter scenarios where the use of AI makes the hiring decision easier but not necessarily non-discriminatory. After this game, users will be able to better manage social issues as they enter the workplace and participate in the hiring process.
 
+You can access the deployed version of our project here: https://cs492-final-project-deploy.vercel.app/
+
 ## Installation Instructions
 
 **Prerequisites**
