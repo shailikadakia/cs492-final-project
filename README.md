@@ -26,16 +26,16 @@ You can access the deployed version of our project here: https://cs492-final-pro
 2. Install dependencies using: npm i
 3. After installing dependencies, start the back-end server using: npm run dev
 
-**Start the front-end Server**   
-5. Now, open a new terminal window in the root directory to start the front-end server.
-6. Navigate to the front-end directory using: cd front-end
-2. Install dependencies using: npm i
-3. After installing dependencies, start the front-end development server using: npm run dev
+**Start the Front-end Server**  
+1. Now, open a new terminal window in the root directory to start the front-end server.
+2. Navigate to the front-end directory using: cd front-end
+3. Install dependencies using: npm i
+4. After installing dependencies, start the front-end development server using: npm run dev
 
 **Running the game**
 Open a web browser and go to http://localhost:5173 (or the specific port used by your front-end that was given).
 
 **Troubleshooting**
-Check Node.js and npm versions: Ensure compatibility with your project's package.json.
-Dependency Errors: Delete node_modules folders and re-run npm i in both directories.
-Firewall Permissions: Ensure firewall settings allow necessary ports.
+*Check Node.js and npm versions: Ensure compatibility with your project's package.json.
+*Dependency Errors: Delete node_modules folders and re-run npm i in both directories.
+*Firewall Permissions: Ensure firewall settings allow necessary ports.
