@@ -339,7 +339,7 @@ const gamePromptPage = {
       id: 25,
       text: `Maura, the Talent Acquisition Specialist informs you that this was an example of name discrimination.
       
-      She adds that 95% of studies on recruitment where researchers create fictitious applicants identify high ethnic discrimination. On average, ethnic minority applicants receive half as many positive responses (Adamovic, 2021). In fact, white-sounding names receive 50% more callbacks for interviews (Bertrand and Mullainathan, 2003). 
+      She adds that 95% of studies on recruitment where researchers create fictitious applicants identify high ethnic discrimination. On average, ethnic minority applicants receive half as many positive responses (Adamovic, 2021).
 
       As a result, the team misses out on the right talent. You are disappointed in yourself.`,
       image: "https://i.ibb.co/FxHPpy1/SadTeam.png",
@@ -351,7 +351,7 @@ const gamePromptPage = {
     },
     {
       id: 26,
-      text: `You learn about the impact of name bias. You discover that 95% of studies on recruitment where researchers create fictitious applicants identify high ethnic discrimination. On average, ethnic minority applicants receive half as many positive responses (Adamovic, 2021). In fact, white-sounding names receive 50% more callbacks for interviews (Bertrand and Mullainathan, 2003). 
+      text: `You learn about the impact of name bias. You discover that 95% of studies on recruitment where researchers create fictitious applicants identify high ethnic discrimination. On average, ethnic minority applicants receive half as many positive responses (Adamovic, 2021).
       
       To combat this type of discrimination, you hide the names of the resumes when reviewing them.`,
       image: "https://i.ibb.co/9spLbqG/Diverse-Team.png",
