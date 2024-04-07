@@ -14,6 +14,10 @@ const jobPostingData = {
     },
     {
       id: 4,
+      text: `Lambrecht, A., & Tucker, C. (2018, March). Algorithmic Bias? An Empirical Study into Apparent Gender-Based Discrimination in the Display of STEM Career Ads | Gender Action Portal. Gender Action Portal. https://gap.hks.harvard.edu/algorithmic-bias-empirical-study-apparent-gender-based-discrimination-display-stem-career-ads`
+    },
+    {
+      id: 5,
       text: ` Tang, S., Zhang, X., Cryan, J., Metzger, M. J., Zheng, H., & Zhao, B. Y. (2017). Gender Bias in the Job Market: A Longitudinal Analysis. Proceedings of the ACM on Human-Computer Interaction, 1(CSCW), 1–19. https://doi.org/10.1145/3134734`
     }
   ]
