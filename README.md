@@ -9,12 +9,13 @@ For our final project, we created an engaging create-your-own-adventure game fro
 * git: Follow instructions at https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 * Node.js (version 14 or later): Download from https://nodejs.org/
 * npm (included with Node.js installation)
+* clone a repo: Follow instructions at https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
 **Cloning the Repository**
 
 1. Open a terminal or command prompt.
 2. Navigate to the desired directory (e.g., `cd Desktop`).
-3. Clone the repository:
+3. Clone the repository using the HTTPS URL:
    ```bash
    git clone [URL]
 
