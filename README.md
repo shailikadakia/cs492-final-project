@@ -1,41 +1,56 @@
-**Description of our Project**
+# Create-Your-Own-Adventure Hiring Simulator
 
-For our final project, we created an engaging create-your-own-adventure game from the perspective of the engineering manager who has to make difficult decisions related to AI Algorithms in the hiring process. Players are presented with different decisions while hiring a new team member to highlight the impact of seemingly small decisions that can lead to discriminatory outcomes. There are four stages in the game: making a job posting, screening candidates, interviewing candidates, and sending out job offers. Players encounter scenarios where the use of AI makes the hiring decision easier but not necessarily non-discriminatory. After this game, users will be able to better manage social issues as they enter the workplace and participate in the hiring process.
+Course: CS492 – Final Project
 
-You can access the deployed version of our project here: https://cs492-final-project-deploy.vercel.app/
+Live Demo: https://cs492-final-project-deploy.vercel.app/
 
-## Installation Instructions
+---
+## 🎯 Project Overview
 
-**Prerequisites**
+When future engineers or hiring managers use AI-powered tools, subtle decisions can lead to unintended discriminatory outcomes. This project invites the user to step into the role of an engineering manager making hiring decisions in four stages:
 
-* git: Follow instructions at https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-* Node.js (version 14 or later): Download from https://nodejs.org/
-* npm (included with Node.js installation)
-* clone a repo: Follow instructions at https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+1. Job Posting – Define the role, requirements, and wording.
+2. Candidate Screening – Choose how to process candidate profiles (including AI-assisted screening).
+3. Interviewing – Select interview questions, decide evaluation criteria, and manage AI tool suggestions.
+4. Offer Decisions – Send offers, or reject candidates, and observe the downstream effects.
 
-**Cloning the Repository**
+Throughout the game, you’ll see how the use and design of AI in the hiring pipeline — and seemingly minor decisions — can amplify bias or hinder diversity. The goal is to raise awareness of social & ethical issues in tech hiring and prepare participants to make more thoughtful design/management decisions in real organizations.
 
-1. Open a terminal or command prompt.
-2. Navigate to the desired directory (e.g., `cd Desktop`).
-3. Clone the repository using the HTTPS URL:
-   ```bash
-   git clone [URL]
+---
+## 🌐 Live Deployment  
+The project is deployed on **Vercel**:  
+👉 **https://cs492-final-project-deploy.vercel.app/**
 
-**Start the Back-end Server**
-1. Navigate to the back-end directory using: cd back-end
-2. Install dependencies using: npm i
-3. After installing dependencies, start the back-end server using: npm run dev
+--- 
+## 🛠 Technologies Used
+- Vite (React)
+- React Router
+- Tailwind
+- Node.js
+- Express
+- Vercel
 
-**Start the Front-end Server**  
-1. Now, open a new terminal window in the root directory to start the front-end server.
-2. Navigate to the front-end directory using: cd front-end
-3. Install dependencies using: npm i
-4. After installing dependencies, start the front-end development server using: npm run dev
+---
+## 🚀 Running the Project Locally  
 
-**Running the game**
-Open a web browser and go to http://localhost:5173 (or the specific port used by your front-end that was given).
+1. Clone the repository  
+```bash
+git clone https://github.com/shailikadakia/cs492-final-project.git
+cd cs492-final-project
+```
+2. Install dependencies
+```npm install```
 
-**Troubleshooting**
-*Check Node.js and npm versions: Ensure compatibility with your project's package.json.
-*Dependency Errors: Delete node_modules folders and re-run npm i in both directories.
-*Firewall Permissions: Ensure firewall settings allow necessary ports.
+3. Start the backend
+```
+cd front-end
+npm run dev
+```
+4. Start the frontend
+```
+cd back-end
+npm run dev
+```
+The app should be available at ```localhost:5173```
+
+---
